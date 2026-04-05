@@ -1,0 +1,37 @@
+{
+  "name": "Codex for Business",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+
+  "containerEnv": {
+    "CODEX_QUIET_MODE": "1"
+  },
+
+  "secrets": {
+    "OPENAI_API_KEY": {
+      "description": "Your OpenAI API key (or skip this and run 'codex login' to use your free ChatGPT account)"
+    }
+  },
+
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "terminal.integrated.fontSize": 14,
+        "workbench.startupEditor": "none"
+      }
+    },
+    "codespaces": {
+      "openFiles": []
+    }
+  },
+
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Quiz App (Module 2)",
+      "onAutoForward": "notify"
+    }
+  }
+}

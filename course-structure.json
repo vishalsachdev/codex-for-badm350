@@ -1,0 +1,157 @@
+{
+  "version": "1.0.0",
+  "courseName": "Codex for BADM 350",
+  "tagline": "You built the product. Now automate the business.",
+  "lastUpdated": "2026-04-05",
+  "totalEstimatedMinutes": 370,
+  "levels": [
+    {
+      "id": "0",
+      "name": "Getting Started",
+      "description": "Install Codex and meet the course",
+      "modules": [
+        {
+          "id": "0.1",
+          "title": "Welcome & Setup",
+          "slug": "welcome",
+          "path": "lesson-modules/0-getting-started/0.1-welcome/AGENTS.md",
+          "description": "What Codex is, who this course is for, the NovaBrew scenario",
+          "estimatedMinutes": 10
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Fundamentals for Business",
+      "description": "Master core Codex skills through real business tasks",
+      "modules": [
+        {
+          "id": "1.1",
+          "title": "Your First Business Prompt",
+          "slug": "intro",
+          "path": "lesson-modules/1-fundamentals/1.1-intro/AGENTS.md",
+          "description": "Run your first Codex prompt, understand how it reads and writes files, process the inherited PM notes from NovaBrew",
+          "estimatedMinutes": 20
+        },
+        {
+          "id": "1.2",
+          "title": "File Exploration & Context",
+          "slug": "file-exploration",
+          "path": "lesson-modules/1-fundamentals/1.2-file-exploration/AGENTS.md",
+          "description": "Navigate messy files like a consultant — parse meeting notes, earnings transcripts, and survey data using Codex",
+          "estimatedMinutes": 25
+        },
+        {
+          "id": "1.3",
+          "title": "Working with Business Files",
+          "slug": "working-with-files",
+          "path": "lesson-modules/1-fundamentals/1.3-working-with-files/AGENTS.md",
+          "description": "Create, edit, and organize deliverables — financial models, customer analyses, strategy docs — all through Codex",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "1.4",
+          "title": "Parallel Agents",
+          "slug": "parallel-agents",
+          "path": "lesson-modules/1-fundamentals/1.4-parallel-agents/AGENTS.md",
+          "description": "Launch multiple agents simultaneously — market researcher, financial modeler, and UX critic working in parallel on NovaBrew's retention problem",
+          "estimatedMinutes": 25
+        },
+        {
+          "id": "1.5",
+          "title": "Advisors, Skills & Plugins",
+          "slug": "custom-agents",
+          "path": "lesson-modules/1-fundamentals/1.5-custom-agents/AGENTS.md",
+          "description": "Three ways to extend Codex — advisors give perspective, skills give repeatable workflows, plugins connect outside tools. Assemble an advisory team and arrive at the NovaBrew recommendation.",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "1.6",
+          "title": "Project Memory",
+          "slug": "project-memory",
+          "path": "lesson-modules/1-fundamentals/1.6-project-memory/AGENTS.md",
+          "description": "Create an AGENTS.md at the root of your workspace so Codex remembers your project context across sessions — no more re-explaining",
+          "estimatedMinutes": 20
+        },
+        {
+          "id": "1.7",
+          "title": "What's Next — From Fundamentals to Building",
+          "slug": "whats-next",
+          "path": "lesson-modules/1-fundamentals/1.7-whats-next/AGENTS.md",
+          "description": "Review what you've learned, preview the vibe-coding module, and prepare your project idea",
+          "estimatedMinutes": 10
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Business Vibe Coding",
+      "description": "Describe the business outcome, not the code — build and ship a real product",
+      "modules": [
+        {
+          "id": "2.1",
+          "title": "Project Setup & Idea Selection",
+          "slug": "setup",
+          "path": "lesson-modules/2-vibe-coding/2.1-setup/AGENTS.md",
+          "description": "Choose your project — NovaBrew retention dashboard, your own startup idea, or a class project — and scaffold it with Codex",
+          "estimatedMinutes": 20
+        },
+        {
+          "id": "2.2",
+          "title": "The Planning Interview",
+          "slug": "plan",
+          "path": "lesson-modules/2-vibe-coding/2.2-plan/AGENTS.md",
+          "description": "Codex runs a Socratic planning session — asks the right questions, surfaces edge cases, and produces a build plan like a senior PM",
+          "estimatedMinutes": 25
+        },
+        {
+          "id": "2.3",
+          "title": "Build & Iterate",
+          "slug": "build",
+          "path": "lesson-modules/2-vibe-coding/2.3-build/AGENTS.md",
+          "description": "Build your app by describing what you want in plain English — iterate on UI, features, and business logic without writing code",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "2.4",
+          "title": "GitHub & Version Control",
+          "slug": "github",
+          "path": "lesson-modules/2-vibe-coding/2.4-github/AGENTS.md",
+          "description": "Push your project to GitHub with a professional README — Codex handles git, PRs, and documentation so your repo looks polished",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "2.5",
+          "title": "Deploy & Go Live",
+          "slug": "deploy",
+          "path": "lesson-modules/2-vibe-coding/2.5-deploy/AGENTS.md",
+          "description": "Ship to GitHub Pages — get a live URL you can share with professors, investors, or LinkedIn",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Pre-Launch Toolkit",
+      "description": "Apply everything to YOUR project — automate marketing and operations for launch",
+      "modules": [
+        {
+          "id": "3.1",
+          "title": "Toolkit Kickoff",
+          "slug": "toolkit-kickoff",
+          "path": "lesson-modules/3-pre-launch-toolkit/3.1-toolkit-kickoff/AGENTS.md",
+          "description": "Transition from NovaBrew to your real project — set up project context, choose 2 automations (one marketing, one operations) from the Pre-Launch Toolkit menu",
+          "estimatedMinutes": 20
+        },
+        {
+          "id": "3.2",
+          "title": "Build Your Automations",
+          "slug": "build-your-automations",
+          "path": "lesson-modules/3-pre-launch-toolkit/3.2-build-your-automations/AGENTS.md",
+          "description": "Build both automations end-to-end — deploy marketing artifacts, generate operations intelligence, write before/after reflections for your board memo",
+          "estimatedMinutes": 75
+        }
+      ]
+    }
+  ]
+}

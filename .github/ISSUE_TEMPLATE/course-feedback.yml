@@ -1,0 +1,93 @@
+name: Course Feedback
+description: Share your experience with Codex for Business Students
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying Codex for Business Students! Your feedback helps make this course better for everyone.
+
+  - type: dropdown
+    id: completed
+    attributes:
+      label: How far did you get?
+      options:
+        - Module 0 — Getting Started
+        - Module 1 — Fundamentals
+        - Module 2 — Vibe Coding (built the NovaBrew quiz)
+        - Module 3 — Capstone (built my own project)
+        - I didn't finish (that's okay!)
+    validations:
+      required: true
+
+  - type: input
+    id: setup
+    attributes:
+      label: How did you run the course?
+      description: e.g., Codex Desktop App on Mac (Intel/Apple Silicon), OS version
+      placeholder: "Codex Desktop App on Mac (Apple Silicon, macOS 15)"
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-worked
+    attributes:
+      label: What worked well?
+      description: What parts of the course were most helpful or enjoyable?
+      placeholder: "e.g., The NovaBrew scenario made it feel real, not like a homework assignment."
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-didnt
+    attributes:
+      label: What didn't work or was confusing?
+      description: Be honest — we'd rather fix problems than hear nice things.
+      placeholder: "e.g., I got stuck on deployment because GitHub Pages showed a 404."
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-you-built
+    attributes:
+      label: What did you build?
+      description: Tell us about your capstone project or anything cool you made. Include a link if you deployed it!
+      placeholder: "e.g., I built a pricing calculator for my side project. Live at: https://..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: background
+    attributes:
+      label: What's your background?
+      options:
+        - MBA / Business student
+        - Undergrad business student
+        - Product Manager / Aspiring PM
+        - Analyst (finance, marketing, ops)
+        - Founder / Entrepreneur
+        - Other
+    validations:
+      required: false
+
+  - type: dropdown
+    id: recommend
+    attributes:
+      label: Would you recommend this course to a friend?
+      options:
+        - Definitely yes
+        - Probably yes
+        - Not sure
+        - Probably not
+        - Definitely not
+    validations:
+      required: false
+
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else?
+      description: Suggestions, ideas, complaints, compliments — all welcome.
+    validations:
+      required: false

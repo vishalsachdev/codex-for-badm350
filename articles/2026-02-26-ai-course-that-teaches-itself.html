@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The AI Course That Teaches Itself</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.8;
+            color: #1a1a1a;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            background: #fafafa;
+        }
+        h1 {
+            font-size: 2rem;
+            line-height: 1.3;
+            margin-bottom: 0.5rem;
+            color: #0f172a;
+            font-weight: 700;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #64748b;
+            font-style: italic;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        h2 {
+            font-size: 1.4rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: #0f172a;
+            font-weight: 700;
+        }
+        p {
+            margin-bottom: 1.2rem;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            border-bottom: 1px solid #93c5fd;
+        }
+        a:hover {
+            color: #1d4ed8;
+            border-bottom-color: #2563eb;
+        }
+        strong {
+            font-weight: 700;
+            color: #0f172a;
+        }
+        em {
+            font-style: italic;
+        }
+        ul, ol {
+            margin-bottom: 1.2rem;
+            padding-left: 1.5rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        code {
+            font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+            background: #f1f5f9;
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+            color: #334155;
+        }
+        pre {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 1.2rem 1.5rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin-bottom: 1.5rem;
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+        pre code {
+            background: none;
+            padding: 0;
+            color: inherit;
+        }
+        blockquote {
+            border-left: 3px solid #fbbf24;
+            padding-left: 1.2rem;
+            margin: 1.5rem 0;
+            color: #475569;
+            font-style: italic;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #e2e8f0;
+            margin: 2rem 0;
+        }
+        .lede {
+            font-size: 1.15rem;
+            color: #334155;
+            line-height: 1.9;
+        }
+        .credit {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e2e8f0;
+            font-size: 0.95rem;
+            color: #64748b;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<h1>The AI Course That Teaches Itself: Building a Business Curriculum Inside OpenAI's Codex CLI</h1>
+
+<p class="subtitle">How I turned a developer-focused concept into a zero-code business course &mdash; 53 files, 50,000 words, one session &mdash; and why the real lesson is about scaling expertise, not scaling code.</p>
+
+<hr>
+
+<p class="lede">I built an entire interactive course in a single afternoon. Fourteen lessons, a fictional startup with 26 files of messy business data, a GitHub Pages landing site, GitHub Codespaces integration for zero-install onboarding, and a root orchestration file that turns the AI into a patient, business-savvy instructor who remembers where each student left off.</p>
+
+<p>The course teaches business students &mdash; MBAs, PMs, analysts, founders &mdash; how to use AI coding tools. And the kicker: the students learn <em>inside</em> the tool itself. There's no video to watch, no slides to click through. You open a terminal, type <code>codex</code>, say "let's start," and the AI becomes your instructor.</p>
+
+<p>Here's how it happened, what I learned, and how you can do the same thing for your own domain.</p>
+
+<h2>The Spark: A Developer Course That Shouldn't Stay Developer-Only</h2>
+
+<p>It started when I found <a href="https://www.yourfirstcursor.com/">Carl Vellotti's Claude Code for Everyone</a> &mdash; a clever course that teaches Claude Code by having students use Claude Code. Each lesson is a <code>CLAUDE.md</code> file that scripts the AI to be a teacher. The student opens the tool, and the tool walks them through itself. Brilliant concept.</p>
+
+<p>But it was aimed at developers. The examples were technical, the language was code-native, the exercises assumed you knew what a function was. I kept thinking: the people who would benefit <em>most</em> from AI coding tools are exactly the people this course doesn't reach. Business students. Product managers. Non-technical founders who have ideas but no engineering team.</p>
+
+<p>These people don't need to learn to code. They need to learn to <em>direct</em> an AI that codes. That's a leadership skill, not an engineering skill.</p>
+
+<p>So I decided to build a version for them &mdash; and I decided to build it fast.</p>
+
+<h2>The Mental Model: AI as Expertise Amplifier</h2>
+
+<p>Here's the frame that drove everything: <strong>AI doesn't replace expertise. It amplifies and scales it.</strong></p>
+
+<p>I've been teaching business students for years. I know what confuses them about technology, what excites them, what makes them shut down. I know that if you say "repository" they glaze over, but if you say "shared project folder" they nod. I know that business students light up when they're solving a real problem for a real (or real-feeling) company, and they disengage when they're doing toy exercises.</p>
+
+<p>That expertise &mdash; understanding learners, designing experiences, knowing which analogies land &mdash; is the hard part. It takes years to develop. What AI gave me was the ability to <em>implement</em> that expertise at a speed and scale that would have been impossible alone.</p>
+
+<p>In one session, I went from "I should build this" to a shipped, deployable course with:</p>
+
+<ul>
+    <li><strong>14 interactive lesson scripts</strong> that turn Codex into a conversational instructor</li>
+    <li><strong>26 business scenario files</strong> creating a rich, messy startup called NovaBrew Coffee Co.</li>
+    <li><strong>A root orchestration file</strong> (AGENTS.md) that acts as a "course conductor" &mdash; detecting student progress, delivering the right lesson, handling navigation</li>
+    <li><strong>A GitHub Pages site</strong> for discovery and onboarding</li>
+    <li><strong>GitHub Codespaces integration</strong> for true zero-install, one-click launch</li>
+    <li><strong>Business templates</strong> (BMC, competitive analysis, pitch deck, case study)</li>
+</ul>
+
+<p>53 files. ~50,000 words. Built by six parallel AI agents working simultaneously, each handling a different piece of the architecture.</p>
+
+<p>I didn't write 50,000 words. I <em>directed</em> them. Every design decision &mdash; the scenario, the tone, the progression, the business-native language, the workspace architecture &mdash; came from years of teaching. The AI handled the implementation.</p>
+
+<h2>Building the NovaBrew World</h2>
+
+<p>The most important design decision wasn't technical. It was narrative.</p>
+
+<p>Business students don't learn from abstract exercises. They learn from <em>cases</em>. So instead of "practice reading a file," the course drops students into a consulting engagement at NovaBrew Coffee Co. &mdash; a D2C coffee subscription startup in Austin with $800K in seed funding, 8 months of runway, and a churn rate that's double the industry average.</p>
+
+<p>The student inherits a mess: previous PM notes with half-baked ideas, board meeting transcripts showing investor anxiety, customer feedback across three channels, competitor research in various states of completion, financial CSVs with concerning trends, and ten old marketing campaigns with wildly varying results.</p>
+
+<p>Buried in that chaos is a signal: the previous PM started a "Coffee Taste Profile Quiz" concept that showed promising A/B test results before they left. The student's job &mdash; which they discover organically through analysis, not because anyone tells them &mdash; is to find that signal, validate it with data, and then <em>build the solution</em>.</p>
+
+<p>By Module 2, they're shipping a working web app. By Module 3, they have a deployed URL, a case study, and portfolio assets. All without writing a line of code themselves.</p>
+
+<p>The scenario took the most thought and the least time to generate. I knew exactly what a compelling business case looks like. The AI built 26 interconnected files that feel like a real company's messy file system &mdash; because the design constraints were specific enough to leave no ambiguity.</p>
+
+<h2>The Autopilot Architecture</h2>
+
+<p>The original Claude Code course requires students to manually navigate into lesson directories and open files. That works for developers. It doesn't work for someone who's never used a terminal.</p>
+
+<p>So I built a conductor pattern: a root <code>AGENTS.md</code> file that turns Codex into a stateful course manager. It:</p>
+
+<ol>
+    <li><strong>Auto-detects progress</strong> by checking <code>~/.codex-for-business/progress.json</code> on every message</li>
+    <li><strong>Infers state from artifacts</strong> if no progress file exists (files in the analysis folder = Module 1 territory)</li>
+    <li><strong>Reads lesson scripts</strong> from nested directories and delivers them conversationally</li>
+    <li><strong>Handles navigation</strong> through natural language ("next lesson", "where am I?", "skip to module 2")</li>
+    <li><strong>Separates student work from course materials</strong> so I can push content updates without destroying anyone's progress</li>
+</ol>
+
+<p>That last point was a real design challenge. If students clone the repo and do their work inside it, a <code>git pull</code> could wipe their analysis. The solution: student work goes to <code>~/novabrew-workspace/</code>, progress goes to <code>~/.codex-for-business/progress.json</code>, and the course repo itself is read-only reference material. Three separate locations, zero conflict.</p>
+
+<h2>Speed of Iteration: From Idea to Deployed in One Session</h2>
+
+<p>Here's the timeline:</p>
+
+<ol>
+    <li><strong>Research</strong> (20 min) &mdash; Fetched Carl's course structure, read through lesson scripts, understood the pattern</li>
+    <li><strong>Architecture design</strong> (15 min) &mdash; Designed the NovaBrew scenario, module progression, workspace separation, conductor pattern</li>
+    <li><strong>Parallel build</strong> (30 min) &mdash; Launched 6 agents simultaneously: business scenario files, Module 0+1 lessons, Module 2+3 lessons, root conductor, GitHub Pages site, supporting files</li>
+    <li><strong>Structural audit</strong> (15 min) &mdash; Couldn't test it interactively, so ran an automated audit agent that found 3 P0 bugs, 8 P1s, and 4 P2s</li>
+    <li><strong>Bug fixes + workspace architecture</strong> (15 min) &mdash; Fixed path references, separated workspaces</li>
+    <li><strong>Codespaces integration</strong> (15 min) &mdash; Added devcontainer with full-auto mode, zero-install setup script</li>
+    <li><strong>Deploy</strong> (5 min) &mdash; Pushed to GitHub, configured Pages, verified the site</li>
+</ol>
+
+<p>Total: about two hours from "I should build this" to a live course at <a href="https://vishalsachdev.github.io/codex-for-business-students/">vishalsachdev.github.io/codex-for-business-students</a>.</p>
+
+<p>That speed wasn't because the work was shallow. It was because the <em>design</em> decisions &mdash; which are the hard part &mdash; were already in my head from years of teaching. The AI collapsed the implementation time from weeks to hours. That's the compound engineering loop in action: domain expertise + AI fluency produces results that neither can achieve alone.</p>
+
+<h2>Context Engineering Is Curriculum Design</h2>
+
+<p>The deepest lesson from this project: writing an <code>AGENTS.md</code> lesson script is exactly like writing a curriculum. You're engineering context. You're deciding what the AI knows, what tone it takes, what it reveals and when, how it handles confusion, what "done" looks like.</p>
+
+<p>Consider this snippet from the root conductor:</p>
+
+<pre><code><strong>Do:</strong>
+- Use business language. Say "stakeholder", "deliverable", "ROI"
+  &mdash; not "function", "variable", "dependency".
+- When introducing a technical concept, give the business analogy first.
+- Celebrate wins genuinely. "You just did real consulting work
+  that firms charge $300/hour for."
+- Normalize not knowing technical things.
+
+<strong>Don't:</strong>
+- Use developer jargon without explanation.
+- Make the student feel behind or slow.</code></pre>
+
+<p>That's not prompt engineering. That's <em>teaching philosophy</em>, encoded as context. Every good teacher has these principles &mdash; they're just usually tacit. When you write them into an AGENTS.md file, you make them executable. The AI becomes a vessel for your pedagogical instincts.</p>
+
+<p>This is what I mean by scaling expertise. The hard-won knowledge about how to teach business students &mdash; the analogies, the pacing, the emotional intelligence &mdash; gets encoded once and then delivered to every student individually, adaptively, at their own pace.</p>
+
+<h2>How to Adapt This for Your Own Course</h2>
+
+<p>If you teach anything &mdash; a university course, a corporate training, a bootcamp module &mdash; here's how to build your own version:</p>
+
+<p><strong>1. Pick a scenario, not a syllabus.</strong> Abstract lessons don't work. Drop students into a realistic situation where the skills you're teaching are the solution. My scenario is a coffee startup with a churn problem. Yours might be a hospital optimizing patient flow, a nonprofit analyzing donor data, or a retailer building a recommendation engine.</p>
+
+<p><strong>2. Write the AGENTS.md files as teaching scripts.</strong> Each lesson needs: learning objectives, a teaching flow with <code>Say:</code> blocks for instructor dialogue, <code>STOP:</code> markers where the AI waits for student input, <code>ACTION:</code> blocks for hands-on exercises, and success criteria.</p>
+
+<p><strong>3. Build a conductor.</strong> Your root AGENTS.md should handle progress detection, lesson delivery, and student navigation. Students should never have to think about file paths.</p>
+
+<p><strong>4. Separate work from content.</strong> Store student artifacts outside the course repo so you can update materials without data loss.</p>
+
+<p><strong>5. Use Codespaces for zero-install.</strong> A <code>.devcontainer/devcontainer.json</code> with a setup script eliminates every onboarding friction point. Students click one link and they're in.</p>
+
+<p><strong>6. Start with the free plan.</strong> Both Codex (via free ChatGPT) and GitHub Codespaces (60 hours/month free) work at no cost. Remove the money objection entirely.</p>
+
+<p>The whole project is open source: <a href="https://github.com/vishalsachdev/codex-for-business-students">github.com/vishalsachdev/codex-for-business-students</a>. Fork it, swap the scenario, rewrite the lessons for your domain. The architecture is the reusable part.</p>
+
+<h2>What I'd Tell Other Educators</h2>
+
+<p>Stop thinking of AI tools as something to teach <em>about</em> and start thinking of them as something to teach <em>with</em>. When I first started <a href="https://chatwithgpt.substack.com/p/beyond-chatgpt-how-ai-transformed">experimenting with AI in the classroom</a>, I was analyzing student discussions and finding hidden patterns. That was powerful, but it was me using AI. This project is different &mdash; it's students using AI, learning AI, inside AI. The meta-learning is the point.</p>
+
+<p>The barrier to building this kind of experience has collapsed. You don't need a development team. You don't need a learning management system. You don't need video production equipment. You need domain expertise, a realistic scenario, and a few hours with an AI coding tool.</p>
+
+<p>Your expertise is the moat. The AI is the bridge.</p>
+
+<h2>Try It. Break It. Tell Me What's Wrong.</h2>
+
+<p>This course is live but early. I've audited the structure but haven't run real students through it yet. If you're a business student, PM, or anyone curious about AI coding tools:</p>
+
+<ol>
+    <li>Go to <a href="https://vishalsachdev.github.io/codex-for-business-students/">vishalsachdev.github.io/codex-for-business-students</a></li>
+    <li>Click "Open in GitHub Codespaces" (free, nothing to install)</li>
+    <li>Run <code>codex</code> and say "let's start"</li>
+    <li>Tell me what works and what doesn't</li>
+</ol>
+
+<p>If you're an educator who wants to build something like this for your own domain, fork the repo and experiment. I'd love to see a version for healthcare analytics, financial modeling, supply chain, HR &mdash; any domain where the practitioners have deep expertise but limited engineering support.</p>
+
+<p>The whole point of AI-augmented expertise is that it compounds. Build once, teach many. Encode your knowledge, scale your reach. The course that teaches itself might be the most scalable educational format we've built yet &mdash; and we built this one in an afternoon.</p>
+
+<h2>Session Transcript</h2>
+
+<p>This article was written during a live collaboration session. <a href="https://gisthost.github.io/?c3126a4baa9220fb29dcfd57791796a2/index.html">View the full conversation</a> to see how we built this together.</p>
+
+<p class="credit">The course is open source at <a href="https://github.com/vishalsachdev/codex-for-business-students">github.com/vishalsachdev/codex-for-business-students</a>. Inspired by and crediting <a href="https://www.yourfirstcursor.com/">Carl Vellotti's Claude Code for Everyone</a> &mdash; the original and excellent course that pioneered teaching AI tools from inside the tool itself.</p>
+
+</body>
+</html>
