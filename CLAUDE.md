@@ -78,6 +78,7 @@ Adapting this Codex course for BADM 350 Unit E (Weeks 12-15). Students start Wee
 - [ ] Update AGENTS.md routing for BADM 350 context
 - [ ] End-to-end test: run a fresh student through the selected lesson path
 - [ ] Update landing page for BADM 350 branding
+- [ ] Add About page (credits original repo + Carl Vellotti, links to both articles, fork instructions for other educators)
 
 ## Session Log
 
