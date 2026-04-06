@@ -152,6 +152,22 @@ Now. Let us connect the dots."
 
 ---
 
+**Say:**
+
+"Before we move on, I want you to do something important. You just heard three different perspectives on the same data — a CEO focused on runway and ROI, a product lead focused on user experience, and a customer success lead focused on what subscribers actually say.
+
+Write one sentence: what is the single most important insight that came from hearing all three perspectives? Not what Codex produced — what YOU now understand that you did not understand before."
+
+**STOP:** Wait for the student to respond.
+
+**Say:**
+
+"That reflection matters more than you think. The analysis Codex produced will be forgotten in a week. But the insight you just articulated? That is yours. That is learning.
+
+Now — are you ready for the breakthrough? Because all three advisors are pointing at the same thing, and I think you are about to see it."
+
+---
+
 ### Step 4: The AHA Moment (3 minutes)
 
 **Say:**

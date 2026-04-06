@@ -8,3 +8,6 @@ out/
 .claude/
 .opencode/
 opencode.jsonc
+video/.env
+video/node_modules
+video/out

@@ -46,11 +46,19 @@ That is exactly where you are right now. There is a directory called inherited-c
 
 So let us do what any good consultant does on day one: explore the data room.
 
-Here is your first instruction. Type this:
+Here is your first instruction. But before you type it — I want you to think like a consultant."
 
-**'List all the files and folders in the inherited-chaos directory'**
+**Say:**
 
-Go ahead."
+"Before we look, I want you to think like a consultant. You are walking into a startup that is losing subscribers. What kinds of documents would you EXPECT to find in their files? Customer data? Financial reports? Marketing plans? Type your prediction — what do you think is in there?"
+
+**STOP:** Wait for the student to respond.
+
+**Say:**
+
+"Good instinct. Let us see how close you are. Type this:
+
+**'List all the files and folders in the inherited-chaos directory'**"
 
 **STOP:** Wait for the student to type the instruction.
 
@@ -68,11 +76,11 @@ Let me give you the lay of the land:
 - **old-campaigns/** — All the retention campaigns NovaBrew has tried (spoiler: there are a lot)
 - **meeting-notes/** — Notes from team meetings, including the PM's own observations
 
-This is a classic consulting data room. Messy, scattered, but full of insights if you know where to look.
+This is a classic consulting data room. Messy, scattered, but full of insights if you know where to look."
 
-Now let us start reading. Say: **'What should I look at first?'**"
+**Say:**
 
-**STOP:** Wait for the student to respond.
+"Compare what you predicted to what is actually there. Did anything surprise you? That gap between expectation and reality is where insights live. A great consultant notices what is MISSING just as much as what is present."
 
 ---
 
@@ -80,7 +88,35 @@ Now let us start reading. Say: **'What should I look at first?'**"
 
 **Say:**
 
-"Great question. On any consulting engagement, you start with two things: the company overview and the departing person's notes. Those give you the fastest context.
+"Now you have five folders in front of you: customer-feedback, financial, competitor-research, old-campaigns, and meeting-notes. A real consultant has to decide where to start — and the order matters because it shapes your thinking.
+
+Which folder would YOU explore first, and why? There is no wrong answer, but your reasoning matters. Type your choice and a one-sentence explanation."
+
+**STOP:** Wait for the student to respond.
+
+**Say:**
+
+"[If student chose customer-feedback]: Smart — hearing the customer's voice first is a classic product-management move. You let the data tell you what the problem feels like before you look at the numbers.
+
+[If student chose financial]: That is the investor's instinct — follow the money first. You want to know how bad the bleeding is before you diagnose the cause.
+
+[If student chose something else]: Interesting choice. Every starting point reveals a different bias — and knowing YOUR default bias is valuable self-awareness.
+
+Whatever you chose, here is what matters: you just made a strategic decision. That is YOUR job. Codex can read every file in seconds — but deciding what to read first, what to prioritize, what matters most — that is the outer loop. That is the human judgment layer that no AI replaces.
+
+Let me introduce a concept you will use for the rest of this course: the **inner loop** and the **outer loop**.
+
+The **inner loop** is the fast, AI-driven execution: reading files, crunching data, generating reports. Codex does this at machine speed.
+
+The **outer loop** is the slower, human-driven judgment: deciding what to analyze, evaluating whether the output makes sense, choosing what to do with the results. That is YOU.
+
+The companies and leaders who get AI right keep humans firmly in the outer loop. The ones who do not... end up copy-pasting their way into expensive mistakes.
+
+Now let us start reading. I will guide you to the company brief first, because that gives us the fastest context."
+
+**Say:**
+
+"On any consulting engagement, you start with two things: the company overview and the departing person's notes. Those give you the fastest context.
 
 Let us start with the company brief. Type this:
 
@@ -121,9 +157,13 @@ If the specific file is previous-pm-notes.md, read that. Otherwise, read whateve
 
 **Say:**
 
-"Now THIS is interesting. Did you catch that?
+"Before I tell you what I think is important here, what jumped out to YOU? What is the most interesting thing in the PM's notes? Type your observation."
 
-The previous PM was onto something. Buried in their notes is a half-formed idea about a 'coffee personality' — the concept that every subscriber should feel like NovaBrew truly knows their taste preferences, their brewing style, their coffee identity.
+**STOP:** Wait for the student to respond.
+
+**Say:**
+
+"Good eye. Here is what I want you to hold onto: The previous PM was onto something. Buried in their notes is a half-formed idea about a 'coffee personality' — the concept that every subscriber should feel like NovaBrew truly knows their taste preferences, their brewing style, their coffee identity.
 
 But it never went anywhere. The PM left before turning it into anything concrete.
 

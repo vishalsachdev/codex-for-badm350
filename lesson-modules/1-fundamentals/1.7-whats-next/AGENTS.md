@@ -74,6 +74,27 @@ Say: **'How long did that take?'**"
 
 ---
 
+**Say:**
+
+"Before we move to Module 2, let me name the pattern you have been practicing without realizing it.
+
+Every step of Module 1 followed the same rhythm:
+
+1. **You decided** what to investigate (outer loop)
+2. **Codex executed** the analysis at machine speed (inner loop)
+3. **You evaluated** whether the output was right, useful, and complete (outer loop)
+4. **You directed** the next step based on your judgment (outer loop)
+
+Notice the ratio: three outer loop steps for every one inner loop step. That is not a coincidence. That IS the job of a modern business professional. The AI handles execution. You handle judgment, direction, and quality.
+
+The physicist Alex Wissner-Gross calls this the **innermost loop** — the fast, self-reinforcing cycle where AI does the work. But the outer loop — your human judgment — is what makes it valuable instead of just fast.
+
+As AI gets better, the inner loop accelerates. But the outer loop — critical thinking, strategic judgment, knowing what question to ask — that stays human. That is your competitive advantage. Not knowing how to code. Not knowing how to use a specific tool. Knowing how to THINK about what the tool produces.
+
+In Module 2, we flip the script. Instead of analyzing, you are going to BUILD. Same inner/outer loop pattern, bigger stakes."
+
+---
+
 ### Step 2: The Time Comparison (2 minutes)
 
 **Say:**
@@ -166,6 +187,12 @@ That is the skill you are building. And you are already further along than you t
 When you are ready for Module 2, start the next lesson. The Coffee Taste Profile Quiz is waiting to be built.
 
 Great work. Seriously. See you in Module 2."
+
+---
+
+**Say:**
+
+"And one more thing for later: after Module 3, there is an optional challenge for those who want to go deeper. You will use Codex to modify THIS course — the very lessons you just completed. The tool improving the tool that teaches the tool. That is the innermost loop in action. But we will get there."
 
 ---
 

@@ -132,13 +132,13 @@ Ready for your first task? Say: **'I am ready'**"
 
 **Say:**
 
-"Excellent. Here is your first real task.
+"Excellent. Here is your first real task. But before you type anything, I want you to make a prediction. Based on what I just told you about the three modules, what do you think you will be able to do by the end? Take 30 seconds and type your prediction — just a sentence or two."
 
-I want you to give me an instruction. Just type it in plain English, like you are talking to a colleague. Here is what I want you to ask:
+**STOP:** Wait for the student to respond.
 
-**Type this:** 'Summarize what a business student will be able to accomplish by the end of this course'
+**Say:**
 
-Go ahead — type it now. This is your first time telling Codex what to do."
+"Good. Hold onto that prediction. Now let us see what Codex thinks. Type this: **'Summarize what a business student will be able to accomplish by the end of this course'**"
 
 **STOP:** Wait for the student to type the instruction.
 
@@ -177,9 +177,39 @@ Ready to get started for real? Say: **'Let us go'**"
 
 **STOP:** Wait for the student to respond.
 
+**Say:**
+
+"Now compare. How close was your prediction? Most people underestimate what they will accomplish — and that gap between expectation and reality is exactly why this course exists. You are not here to learn a tool. You are here to discover a new way of working."
+
 ---
 
-### Step 5: Setting Expectations & Wrap Up (1 minute)
+### Step 5: Discover Your Controls (2 minutes)
+
+**Say:**
+
+"Before we wrap up, I want you to notice something. Look at the bottom of your screen. You should see a few controls:
+
+1. **A model name** (probably says 'GPT-5.4' or similar) — This is which AI brain is doing the work. Different models have different strengths, like choosing between a quick analyst and a senior strategist.
+
+2. **A thinking effort level** (probably says 'Medium') — This is how hard the AI thinks before responding. Low is fast but shallow — good for simple tasks. High is slower but deeper — good for complex analysis.
+
+Here is a quick experiment. Type this:
+
+**'What is the single biggest risk NovaBrew faces right now?'**
+
+Watch the answer. Then change the thinking effort to **High**, ask the exact same question, and compare. The difference is like asking a colleague for a quick hallway opinion versus scheduling a 30-minute deep-dive meeting.
+
+You do not need to memorize this. Just know the dial exists. As you go through this course, you will develop an instinct for when to turn it up and when speed matters more than depth."
+
+**STOP:** Wait for the student to try the experiment.
+
+**Say:**
+
+"See the difference? That instinct — knowing when to go fast versus when to go deep — is one of the most valuable skills you will develop. It is not just an AI skill. It is a management skill. Every decision you make as a leader involves that same tradeoff: speed versus depth."
+
+---
+
+### Step 6: Setting Expectations & Wrap Up (1 minute)
 
 **Say:**
 

@@ -4,7 +4,28 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-An interactive course ("Codex for Business") delivered through AI agent scripts. Students open this repo in OpenAI's Codex desktop app and say "let's start" — the root `AGENTS.md` acts as a course conductor that routes them through lessons. Not a traditional code project; no build step, no package.json, no tests.
+An interactive course ("Codex for Business") delivered through AI agent scripts, adapted for **BADM 350: Technology & AI Strategy** at Gies College of Business (Spring 2026). Students open this repo in OpenAI's Codex desktop app and say "let's start" — the root `AGENTS.md` acts as a course conductor that routes them through lessons. Not a traditional code project; no build step, no package.json, no tests.
+
+## BADM 350 Context
+
+**Canvas course ID**: 68238 (Spring 2026, production)
+**Class times**: Tuesday & Thursday, 12:30 PM Central
+**Instructor**: Vishal Sachdev
+
+This Codex course is used during **Unit E: AI Strategy (Weeks 12-15)** of BADM 350:
+
+| Week | Dates | Codex Modules | BADM 350 Topic |
+|------|-------|---------------|----------------|
+| 12 | Apr 7-9 | Modules 0-2 (Getting Started → Fundamentals → Vibe Coding) | AI Fundamentals + GenAI Module 3 |
+| 13 | Apr 14-16 | Module 3 (Capstone) | Agentic AI |
+| 14-15 | Apr 21+ | Capstone adapted to class projects | Responsible AI → Final Presentations |
+
+**Weeks 1-11 are complete** (Foundations → Digital Economics → Data → Enterprise). Students arrive at this Codex course with:
+- Team projects (2-3 people) with working prototypes (Checkpoint 4 due Apr 9)
+- Final presentation due Week 15 (board memo + live demo, 50 pts)
+- 500-point grading scale; semester project = 40% (200 pts across 5 checkpoints)
+
+**Parent repo**: `/Users/vishal/teaching/badm350/` (full course with Canvas integration, instructor guides, grading)
 
 ## Architecture
 
@@ -48,35 +69,17 @@ Key rules: never break character, never use CS jargon without a business analogy
 
 ## Current Focus
 
-Maintenance pass complete. Next: end-to-end student walkthrough test.
+Adapting this Codex course for BADM 350 Unit E (Weeks 12-15). Students start Week 12 on Apr 7.
 
 ## Roadmap
 
-- [x] Replace Vercel with GitHub Pages as student deployment target
-- [x] Fix UX issues in deploy flow (gitignore, basePath verification, messaging)
-- [ ] End-to-end test: run a fresh student through Lessons 2.4 → 2.5 to verify GitHub Pages deploy works
-- [ ] Add GitHub Actions workflow for student projects (eliminate local `npm run build` requirement)
-- [ ] Collect first round of student feedback and iterate on pain points
+- [ ] Decide which lessons to use / cut / adapt for BADM 350's 3-4 week window
+- [ ] Connect Codex lessons to students' existing team projects (not just NovaBrew)
+- [ ] Update AGENTS.md routing for BADM 350 context
+- [ ] End-to-end test: run a fresh student through the selected lesson path
+- [ ] Update landing page for BADM 350 branding
 
 ## Session Log
 
-### 2026-03-27
-- Completed: Curriculum update for Codex changes. Four changes across 6 files:
-  1. **Fixed 1.6** — Students now create `~/novabrew-workspace/AGENTS.md` (not `novabrew-agents.md`). Removed false claim about automatic reading of non-AGENTS.md files. Clear framing: AGENTS.md at workspace root = auto-read.
-  2. **Rewrote 1.5** — New title "Advisors, Skills & Plugins." Step 1 teaches the three-role model. Step 5 explains all three with cheat sheet table. Advisory team review + AHA moment unchanged.
-  3. **Refreshed 2.4** — GitHub framed as "back up and share." Built-in GitHub connection is easy path; `gh` CLI is fallback.
-  4. **Added 3.2 Canva bonus** — Optional lesson for turning finished project into case study, deck, or LinkedIn asset. Not part of main build path.
-- Also updated: course-structure.json (titles, descriptions, new 3.2 entry), root AGENTS.md (course map, workspace paths, timing).
-- Propagated: Added roadmap note in ai-for-marketing CLAUDE.md to consider advisors/skills/plugins update for 1.5 during pilot run.
-
-### 2026-03-24
-- Completed: Designed and built "Augmented Intelligence (AI) for Marketing Teams" — a new course for Brad Petersen's 22-person marketing team at Gies. Full brainstorm → spec → council review (4 agents: copywriter, learning designer, tech architect, CMO) → parallel implementation (7 agents). Course repo at `/Users/vishal/teaching/ai-for-marketing/` with 38 files, 7K lines. Uses real MSBA Online materials, Box for collaboration, MSBAi bot MCP, split build tracks, Netlify Drop for deploys. Design spec saved at `docs/superpowers/specs/2026-03-24-ai-for-marketing-design.md`.
-- Next: Box folder provisioning (via MCP), knowledge-base curation from msba-online, test setup-connections.sh, pilot run simulating a staff member, push ai-for-marketing to GitHub.
-
-### 2026-03-23
-- Completed: Maintenance pass for public visitors. Added Windows support across all files (6 files). Removed Vercel deployment (deleted both projects), consolidated to GitHub Pages only. Redesigned landing page with Canvas MCP color theme (Clash Display + DM Sans, teal accent, glass cards, grid backgrounds, entry animations).
-- Next: End-to-end test of the deploy flow with a fresh student walkthrough
-
-### 2026-02-26
-- Completed: Replaced Vercel with GitHub Pages across 8 files, fixed 6 UX issues (gitignore, auto-deploy messaging, capstone ordering, basePath verification, README template, landing page copy), deployed landing page to Vercel
-- Next: End-to-end test of the deploy flow with a fresh student walkthrough
+### 2026-04-05
+- Cloned from codex-for-business repo. Updated CLAUDE.md with BADM 350 context (course ID, schedule, Unit E placement, parent repo reference).

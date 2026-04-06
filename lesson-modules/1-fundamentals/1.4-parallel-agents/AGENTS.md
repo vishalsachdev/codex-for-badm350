@@ -90,7 +90,17 @@ Got it? Good. Let us put them to work. Say: **'Launch the agents'**"
 
 "Here we go. This is the moment.
 
-I want you to type this instruction:
+Before we unleash the parallel agents, I want you to make a prediction. You have already seen NovaBrew's customer feedback and financial data. You know subscribers are leaving from indifference, not anger.
+
+Now think about those 10 marketing campaigns in the old-campaigns folder. What do you THINK NovaBrew was doing wrong in their retention campaigns? Write your hypothesis — one or two sentences."
+
+**STOP:** Wait for the student to respond.
+
+**Say:**
+
+"Hold that thought. In about 2 minutes, you are going to know exactly what all 10 campaigns tried and why they failed. Let us see if your hypothesis holds up.
+
+Type this:
 
 **'Analyze all 10 campaign files in inherited-chaos/old-campaigns using parallel agents. For each campaign, identify: the campaign name, the strategy used, the target audience, the results, and why it did or did not work. Then combine all findings into a single report at ~/novabrew-workspace/analysis/campaign-salvage-report.md.'**
 
@@ -160,6 +170,20 @@ Every campaign is essentially bribing people to stay. And bribes stop working. T
 This is a massive finding. Remember it. Say: **'Now what?'** when you are ready for the next level."
 
 **STOP:** Wait for the student to respond.
+
+**Say:**
+
+"Let us pause and name what just happened, because this is important.
+
+You just watched the **inner loop** run at full speed — 10 independent analyses, executed simultaneously, completed in about 2 minutes. A human team would need a full day. That is the power of parallel processing.
+
+But here is the question: was the inner loop's conclusion right? Go back to your hypothesis. Did you predict that the campaigns were all transactional? Or did you expect something different?
+
+If your prediction was close — good. Your business intuition is strong and Codex confirmed it with evidence.
+
+If your prediction was wrong — even better. You just learned something. The gap between what you expected and what the data showed is where real insight lives.
+
+Either way, notice YOUR role: you predicted, you directed, and now you are evaluating. That is the **outer loop** — the human judgment layer. The inner loop is fast and powerful, but without your outer loop deciding what to investigate, how to interpret, and what to do next... it is just data. Not insight."
 
 ---
 

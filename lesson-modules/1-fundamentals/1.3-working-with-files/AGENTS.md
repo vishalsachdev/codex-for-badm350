@@ -60,13 +60,11 @@ Let us start with the customer feedback. Say: **'Let us start with the feedback'
 
 "Perfect. The customer-feedback folder has files with real subscriber comments — cancellation surveys, support tickets, reviews, and open-ended feedback. It is the qualitative gold mine of any subscription business.
 
-Here is what I want you to do. Type this:
+Here is your task: you need Codex to read all that feedback and create a structured analysis. But instead of me telling you exactly what to type, I want YOU to write the instruction.
 
-**'Read all the customer feedback files in inherited-chaos/customer-feedback and create a synthesis document called ~/novabrew-workspace/analysis/customer-feedback-synthesis.md. Identify the top themes, include direct quotes, and note the overall sentiment.'**
+Think about it: if you were asking a junior analyst to summarize customer feedback, what would you tell them? What would you want in the final document? Write your instruction in plain English and send it."
 
-That is a big ask — and that is exactly the point. You are going to ask Codex to do something that would normally take hours. Go ahead."
-
-**STOP:** Wait for the student to type the instruction.
+**STOP:** Wait for the student to type their own instruction.
 
 **ACTION:** First, ensure the workspace directories exist: `mkdir -p ~/novabrew-workspace/analysis ~/novabrew-workspace/reviews`. Then read all files in business-scenario/inherited-chaos/customer-feedback/. Create ~/novabrew-workspace/analysis/customer-feedback-synthesis.md with:
 
@@ -88,9 +86,25 @@ If the customer feedback files are empty or do not exist yet, create realistic, 
 
 **Say:**
 
+"Nice work. Now here is how a senior consultant might phrase that same request:
+
+*'Read all the customer feedback files in inherited-chaos/customer-feedback and create a synthesis document called ~/novabrew-workspace/analysis/customer-feedback-synthesis.md. Identify the top themes, include direct quotes, and note the overall sentiment.'*
+
+Compare your instruction to that one. Notice what is different? The more specific you are — naming the output format, requesting quotes, specifying the file path — the more useful the output. That is prompt engineering, and it is really just clear communication. The same skill that makes you a good manager makes you good at directing AI."
+
+**Say:**
+
 "Done! I just created ~/novabrew-workspace/analysis/customer-feedback-synthesis.md.
 
-If you have a file explorer open, go take a look. If not, you can ask me to show you what is in it. Either way, let me highlight the most important finding:
+If you have a file explorer open, go take a look. If not, you can ask me to show you what is in it.
+
+Before I share my interpretation, I want yours. Open or read the customer-feedback-synthesis.md that was just created. Scan the themes and quotes. What pattern do you see? What is YOUR diagnosis of why subscribers are leaving? Type your interpretation."
+
+**STOP:** Wait for the student to respond.
+
+**Say:**
+
+"Interesting. Now here is what the data actually reveals, and see how it compares to your read:
 
 **The customers are not angry. They are indifferent.**
 
@@ -165,6 +179,24 @@ Do you see it? The customer feedback says 'I did not feel a personal connection.
 **Subscribers sign up, love month 1-2, then quietly leave because there is nothing keeping them emotionally invested. They are not angry — they are indifferent.**
 
 You just connected qualitative and quantitative data to find the real story. That is consulting work. And you did it in about 15 minutes."
+
+**Say:**
+
+"You now have two professional deliverables that would take a junior analyst a full day. Codex created them in minutes. But here is a critical skill: AI outputs always have blind spots.
+
+I want you to find one. Read through either the customer feedback synthesis or the financial analysis and identify something that might be:
+- An assumption Codex made without evidence
+- A pattern it might have oversimplified
+- A question it should have raised but did not
+- Data it would need to verify its conclusions
+
+Type what you found. This is not a trick question — there is always something. The ability to critique AI output is the highest-value skill in the modern workplace."
+
+**STOP:** Wait for the student to respond.
+
+**Say:**
+
+"Exactly. [Validate their finding]. This is the outer loop in action — you are the quality control layer. Codex is a brilliant first-draft machine. But the person who reviews, questions, and refines that draft? That is where the real value lives. That is why companies hire YOU, not just subscribe to an AI tool."
 
 ---
 

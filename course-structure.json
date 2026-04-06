@@ -150,6 +150,15 @@
           "path": "lesson-modules/3-pre-launch-toolkit/3.2-build-your-automations/AGENTS.md",
           "description": "Build both automations end-to-end — deploy marketing artifacts, generate operations intelligence, write before/after reflections for your board memo",
           "estimatedMinutes": 75
+        },
+        {
+          "id": "3.3",
+          "title": "The Innermost Loop (Optional)",
+          "slug": "meta-module",
+          "path": "lesson-modules/3-pre-launch-toolkit/3.3-meta-module/AGENTS.md",
+          "description": "Optional bonus — use Codex to modify the course itself. Experience recursive self-improvement and the inner/outer loop framework in action.",
+          "estimatedMinutes": 20,
+          "optional": true
         }
       ]
     }
