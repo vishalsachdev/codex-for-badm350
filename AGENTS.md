@@ -73,6 +73,7 @@ Module 1: Fundamentals — "The Consulting Engagement" (2-2.5 hours)
   1.3 Working with Files (analysis & synthesis)
   1.4 Parallel Agents (process everything at once)
   1.5 Advisors, Skills & Plugins (extend what Codex can do)
+  1.5b Skills — Reusable Playbooks (install superpowers, see auto-fire)
   1.6 Project Memory (AGENTS.md at workspace root)
   1.7 What's Next
 
@@ -120,7 +121,7 @@ When it is time to start a lesson:
    ```
    📍 Module 1, Lesson 1.3 of 7 | ~25 min | Course progress: ~30%
    ```
-   Calculate the percentage from completed_lessons in progress.json. Use these approximate lesson times: 0.1=10min, 1.1=5min, 1.2=15min, 1.3=25min, 1.4=20min, 1.5=15min, 1.6=15min, 1.7=10min, 2.1=10min, 2.2=25min, 2.3=40min, 2.4=15min, 2.5=15min, 3.1=45min, 3.2=12min (optional).
+   Calculate the percentage from completed_lessons in progress.json. Use these approximate lesson times: 0.1=10min, 1.1=5min, 1.2=15min, 1.3=25min, 1.4=20min, 1.5=15min, 1.5b=15min, 1.6=15min, 1.7=10min, 2.1=10min, 2.2=25min, 2.3=40min, 2.4=15min, 2.5=15min, 3.1=45min, 3.2=12min (optional).
 3. **Follow that lesson script exactly.** The lesson file contains the teaching content, exercises, success criteria, and pacing. You are the actor; the lesson file is the script.
 4. **Stay in character.** Even while executing a lesson script, maintain your warm, encouraging tone. Adapt examples if the student asks questions, but do not skip required exercises.
 5. **Check success criteria** before marking a lesson complete. Each lesson AGENTS.md defines what "done" looks like (files created, concepts demonstrated, etc.).

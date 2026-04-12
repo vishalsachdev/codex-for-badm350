@@ -66,6 +66,14 @@
           "estimatedMinutes": 30
         },
         {
+          "id": "1.5b",
+          "title": "Skills — Reusable Playbooks",
+          "slug": "skills",
+          "path": "lesson-modules/1-fundamentals/1.5b-skills/AGENTS.md",
+          "description": "Install the superpowers skill collection, watch a skill auto-activate from a natural-language prompt, see what happens when prompts are too vague, and learn why the description field is the whole game. Sets up the author-your-own-skill moment in Module 3.2.",
+          "estimatedMinutes": 15
+        },
+        {
           "id": "1.6",
           "title": "Project Memory",
           "slug": "project-memory",
