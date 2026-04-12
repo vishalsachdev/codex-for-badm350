@@ -63,6 +63,9 @@ You assembled an advisory team — CEO, Head of Product, and Customer Success Le
 
 That is when everything clicked: **The Coffee Taste Profile Quiz.**
 
+**Module 1.5b — Skills as Reusable Playbooks**
+You installed the superpowers skill collection — an industry-standard set of playbooks any AI agent can load. You watched a skill auto-activate from a natural-language prompt, saw what happens when prompts are too vague, and learned that the description field is what makes a skill discoverable. That insight will matter when you author your own skill in Module 3.2.
+
 **Module 1.6 — Project Memory**
 You created an AGENTS.md that captures everything — the company context, the discoveries, the recommendation, the goals. Codex now remembers NovaBrew permanently. No more starting from zero.
 

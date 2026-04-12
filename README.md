@@ -44,7 +44,8 @@ You'll walk away with deployable artifacts and a "before vs. after" story for yo
 | **1.2** | File Exploration & Context | 25 min | Parse meeting notes, earnings transcripts, survey data |
 | **1.3** | Working with Business Files | 30 min | Create financial models, customer analyses, strategy docs |
 | **1.4** | Parallel Agents | 25 min | Launch 3 agents simultaneously on NovaBrew's retention problem |
-| **1.5** | Custom Agents & Skills | 30 min | Build reusable business agents with AGENTS.md and Skills |
+| **1.5** | Advisors, Skills & Plugins | 30 min | Assemble an advisory team and arrive at the NovaBrew recommendation |
+| **1.5b** | Skills — Reusable Playbooks | 15 min | Install the superpowers collection, watch a skill auto-fire from a natural prompt, learn why descriptions are the whole game |
 | **1.6** | Project Memory | 20 min | Give Codex persistent context about your business |
 | **1.7** | What's Next | 10 min | Review fundamentals, prepare for vibe coding |
 | **2.1** | Project Setup | 20 min | Choose your project and scaffold it |
