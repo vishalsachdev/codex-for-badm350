@@ -257,6 +257,31 @@ a:hover { color: var(--accent-dark); }
 
 .nav__links a:hover { color: var(--text-primary); }
 
+.nav__github {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--white);
+  color: var(--text-primary) !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  transition: all var(--transition);
+}
+
+.nav__github:hover {
+  border-color: var(--accent);
+  color: var(--accent) !important;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-card);
+}
+
+.nav__github svg {
+  flex-shrink: 0;
+}
+
 .nav__cta {
   padding: 8px 20px !important;
   font-size: 0.85rem !important;
