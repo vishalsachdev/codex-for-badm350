@@ -69,7 +69,7 @@ Key rules: never break character, never use CS jargon without a business analogy
 
 ## Current Focus
 
-TA test run of Module 1.5b (Skills lesson) in a fresh Codex environment, then wire the author-your-own-skill callback into Module 3.2.
+Monitor student feedback from the lesson-transition fix (issues #1-3 closed 2026-04-14). Then TA test Module 1.5b in a fresh Codex environment and wire the author-your-own-skill callback into Module 3.2.
 
 ## Roadmap
 
@@ -84,11 +84,9 @@ TA test run of Module 1.5b (Skills lesson) in a fresh Codex environment, then wi
 
 ## Session Log
 
-### 2026-04-12
-- Added Module 1.5b (Skills — Reusable Playbooks): hands-on lesson installing obra/superpowers, implicit invocation demo, failure-mode demo, `/skills` + `$skill-name` fallbacks. Cognitive friction beat: predict-before-run. Sets up author-your-own-skill moment in Module 3.2 by anchoring on the description field as the discoverability contract.
-- Researched Codex skills support (confirmed hybrid invocation model: implicit via description matching + explicit via `/skills` and `$skill-name`). Skills are an open standard (agentskills.io) — same format works in Codex and Claude.
-- Updated course-structure.json, root AGENTS.md routing, landing page Module 1 card, README lesson table, and Module 1.7 wrap-up recap to surface 1.5b.
-- Removed obsolete SPEC.md (pre-implementation planning doc with outdated module numbering; source of truth lives in course-structure.json + README.md + CLAUDE.md).
-- Next: TA test run of 1.5b in a fresh Codex environment (verify superpowers install path + auto-fire behavior). Then wire the author-your-own-skill callback into Module 3.2.
+### 2026-04-14
+- Shipped conductor-level fix for three student feedback issues (#1, #2, #3 — all from Module 1 students, all pointing at opaque lesson transitions). Single edit to root `AGENTS.md` propagates to all 14 lessons without touching any lesson file. Adds: (1) visible "Here's what done looks like" checklist rendered from each lesson's Success Criteria at lesson start, (2) completion gate on "next" that shows which boxes are unchecked with explicit override escape hatch, (3) prerequisite check before starting a lesson that verifies prior artifacts exist, (4) context carry-forward so transitions reference prior discoveries instead of feeling like a memory wipe. `progress.json` gained `incomplete_lessons[]` to track overrides.
+- Closed issues #1, #2, #3 with fix references. Scheduled Canvas announcement (course 68238, announcement ID 1114613) to post ~1 hour delayed, routing the "re-download ZIP" instructions through the BADM 350 course shell. Email draft also saved at `/Users/vishal/teaching/badm350/communications/emails/2026-04-14-codex-course-update.md`. Reassured students the workspace-vs-course-folder separation means ZIP replacement is safe.
+- Next: watch for new feedback after students re-download; TA test Module 1.5b in a fresh Codex environment; wire author-your-own-skill callback into Module 3.2.
 
 *Older entries archived to `docs/session-archive.md`.*

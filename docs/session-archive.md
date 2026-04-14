@@ -4,6 +4,14 @@ Older session log entries, moved out of CLAUDE.md to keep the top-of-file lean. 
 
 ---
 
+## 2026-04-12
+- Added Module 1.5b (Skills — Reusable Playbooks): hands-on lesson installing obra/superpowers, implicit invocation demo, failure-mode demo, `/skills` + `$skill-name` fallbacks. Cognitive friction beat: predict-before-run. Sets up author-your-own-skill moment in Module 3.2 by anchoring on the description field as the discoverability contract.
+- Researched Codex skills support (confirmed hybrid invocation model: implicit via description matching + explicit via `/skills` and `$skill-name`). Skills are an open standard (agentskills.io) — same format works in Codex and Claude.
+- Updated course-structure.json, root AGENTS.md routing, landing page Module 1 card, README lesson table, and Module 1.7 wrap-up recap to surface 1.5b.
+- Removed obsolete SPEC.md (pre-implementation planning doc with outdated module numbering; source of truth lives in course-structure.json + README.md + CLAUDE.md).
+
+---
+
 ### 2026-04-06
 - Added cognitive friction points to 6 lesson modules (0.1, 1.2, 1.3, 1.4, 1.5, 1.7). Replaced copy-paste learning with predict/write/evaluate/critique/reflect moments. Introduced inner/outer loop framework explicitly.
 - Added Module 3.3 (meta-module) where students modify the course itself.
