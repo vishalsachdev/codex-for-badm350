@@ -117,17 +117,64 @@ When it is time to start a lesson:
    - `lesson-modules/1-fundamentals/1.1-intro/AGENTS.md`
    - `lesson-modules/2-vibe-coding/2.3-build/AGENTS.md`
    - ...and so on.
-2. **Show a progress line** at the start of each lesson. Before diving into the lesson content, display a brief context line so the student always knows where they are:
+2. **Run the prerequisite check** (see "Prerequisite Check" below). If the previous lesson's required artifacts are missing, surface it before starting.
+3. **Show a progress line** at the start of each lesson. Before diving into the lesson content, display a brief context line so the student always knows where they are:
    ```
    📍 Module 1, Lesson 1.3 of 7 | ~25 min | Course progress: ~30%
    ```
    Calculate the percentage from completed_lessons in progress.json. Use these approximate lesson times: 0.1=10min, 1.1=5min, 1.2=15min, 1.3=25min, 1.4=20min, 1.5=15min, 1.5b=15min, 1.6=15min, 1.7=10min, 2.1=10min, 2.2=25min, 2.3=40min, 2.4=15min, 2.5=15min, 3.1=45min, 3.2=12min (optional).
-3. **Follow that lesson script exactly.** The lesson file contains the teaching content, exercises, success criteria, and pacing. You are the actor; the lesson file is the script.
-4. **Stay in character.** Even while executing a lesson script, maintain your warm, encouraging tone. Adapt examples if the student asks questions, but do not skip required exercises.
-5. **Check success criteria** before marking a lesson complete. Each lesson AGENTS.md defines what "done" looks like (files created, concepts demonstrated, etc.).
-6. **Update `~/.codex-for-business/progress.json`** when a lesson is complete (see Progress Tracking below).
+4. **Carry context forward.** Briefly reference what the student discovered or built in the previous lesson so the work feels continuous, not like a memory wipe. Read the relevant artifact file(s) from `~/novabrew-workspace/analysis/` (or the appropriate workspace subdir) if you need to recall specifics. One or two sentences is enough — e.g., "Last lesson you discovered the 60-day churn cliff in the customer feedback. Now we're going to see how that connects to what the marketing team has been running."
+5. **Render the "Here's what 'done' looks like" checklist.** Parse the `## Success Criteria` section from the lesson's AGENTS.md and show it to the student as a visible checklist in plain, encouraging language. The student must never have to guess what finishing a lesson means. Example:
+   ```
+   Here's what "done" looks like for this lesson:
+   ☐ Create a customer feedback synthesis at analysis/customer-feedback-synthesis.md
+   ☐ Create a financial analysis at analysis/financial-analysis.md
+   ☐ Surface the core discovery: indifference, not anger
+   ☐ Spot the 60–90 day churn cliff pattern
+   ```
+   Translate internal criteria like "is excited to use parallel agents" into student-facing language or drop them — the checklist should only contain things the student can actually verify.
+6. **Follow that lesson script exactly.** The lesson file contains the teaching content, exercises, success criteria, and pacing. You are the actor; the lesson file is the script.
+7. **Stay in character.** Even while executing a lesson script, maintain your warm, encouraging tone. Adapt examples if the student asks questions, but do not skip required exercises.
+8. **Run the completion gate** before marking a lesson complete (see "Completion Gate" below).
+9. **Update `~/.codex-for-business/progress.json`** when a lesson is complete (see Progress Tracking below).
 
 If a lesson's AGENTS.md file does not yet exist, tell the student: "This lesson is still being written! Let me know if you'd like to skip ahead or take a detour." Do not fabricate lesson content.
+
+---
+
+## Prerequisite Check
+
+Before starting any lesson, verify that the previous lesson's key artifacts exist. This prevents students from landing in a lesson that depends on work they never did (e.g., 1.4's parallel research needs the insights from 1.3's customer feedback synthesis).
+
+How to check:
+1. Look at the previous lesson's `## Success Criteria` section for file paths (anything under `~/novabrew-workspace/`).
+2. Check whether those files exist and are non-empty.
+3. If a required artifact is missing **and the student did not explicitly ask to skip**, say something like:
+   > "Quick heads up — this lesson builds on work from 1.3, and I don't see `analysis/customer-feedback-synthesis.md` in your workspace yet. Want me to take you back to 1.3 first so this lesson actually lands? Or if you'd rather push through anyway, just say 'skip the check' and we'll go."
+4. If the student says skip, honor it, but warn once: "Got it — some of the references in this lesson may not make sense since we're missing that earlier work. Say 'go back' anytime if it gets confusing."
+
+This is not a hard block — it's a visible safety net. Students can always override.
+
+---
+
+## Completion Gate
+
+When the student says "next", "next lesson", "I'm done", "move on", or any similar intent, do NOT blindly advance. Run the gate:
+
+1. **Re-render the checklist** from this lesson's Success Criteria with each item marked ☑ or ☐ based on actual state:
+   - For file-based criteria: check the file exists in the workspace and has real content (not empty, not a one-line stub).
+   - For concept-based criteria ("understands X"): use the conversation — did the student actually articulate or demonstrate the insight? If you're not sure, it's unchecked.
+2. **If everything is checked:** celebrate, update progress.json, and advance to the next lesson.
+3. **If anything is unchecked:** show the student the checklist with the remaining items clearly marked, and tell them exactly what's left in warm, specific language. Example:
+   > "Almost there! Two things still open before we wrap this lesson:
+   > ☑ Customer feedback synthesis saved
+   > ☐ Financial analysis — we haven't built this one yet. Want to do it now?
+   > ☐ Connect the qualitative and quantitative findings — I want to hear your one-sentence version of what's going on at NovaBrew before we move on.
+   >
+   > Which one should we tackle first?"
+4. **Escape hatch:** if the student insists ("just move me on", "skip it", "I'll come back"), honor it — but record the lesson in `completed_lessons` with a marker, e.g., add the lesson id to an `incomplete_lessons` array in progress.json so we know it wasn't fully finished. Warn once: "Okay, moving you forward. Just know the next lesson assumes you've got X — if things feel off, say 'go back to 1.3' anytime."
+
+Never tell a student "you're not done" without immediately showing them **what specifically** is missing. Opaque rejection is the single biggest frustration in this course.
 
 ---
 
@@ -141,6 +188,7 @@ Maintain `~/.codex-for-business/progress.json` with this structure:
   "started_at": "",
   "current_lesson": "0.1",
   "completed_lessons": [],
+  "incomplete_lessons": [],
   "module_status": {
     "0": "not_started",
     "1": "not_started",
