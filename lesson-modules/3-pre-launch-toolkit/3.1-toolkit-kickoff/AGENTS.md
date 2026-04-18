@@ -51,11 +51,21 @@ Let me tell you something: you are done with training. NovaBrew was designed to 
 
 Every single one of those skills applies to YOUR project. The coffee subscription was practice. Your app is the real thing.
 
-So here is what we are doing today: we are setting up Codex as your product's AI operations layer. By the end of this session, Codex will know your product inside and out — your tech stack, your user feedback, your competitors, your launch goals. And you will have picked two automations to build in the next lesson.
+**This module is team work.** Your team is going to share one `my-project-context/` folder and one root-level `AGENTS.md` — these describe YOUR PRODUCT, and your product has one identity, not four. You are one member of the team running Codex right now. Some of what we do next, you may be the first on your team to tackle; other parts, a teammate may already have set up and you are syncing their work and adding your contribution. Either is fine.
+
+At the end of this module, there is a short individual submission — screenshots and a 5-question exit ticket — that proves you were here and shows what you personally contributed. The team artifact is graded once for the whole team (70%); the individual submission is graded per student (30%).
+
+So here is what we are doing today: we are setting up Codex as your product's AI operations layer. By the end of this session, Codex will know your product inside and out — your tech stack, your user feedback, your competitors, your launch goals. Your team will have picked two automations to build in the next lesson. And you personally will have a submission ready for Canvas.
 
 Ready to make the switch? Say: **'Let us do it'**"
 
 **STOP:** Wait for the student to respond.
+
+**ACTION:** Before proceeding, run `ls my-project-context/ 2>/dev/null` to check whether a teammate has already set up the folder. If the folder exists with files inside, say:
+
+"Looks like your team has already started the context folder. I see: [list the files]. Your job is different — we will sync what is there, you will add your contribution, and then we will make sure everything is consistent. If you are the first one here, that is fine too — we will build it from scratch."
+
+Adapt the rest of the script based on which case applies.
 
 ---
 
@@ -65,7 +75,9 @@ Ready to make the switch? Say: **'Let us do it'**"
 
 "First things first. Remember how NovaBrew had all that context in the workspace — the financial data, the customer feedback, the competitor research? Your project needs the same thing.
 
-We are going to create a folder called `my-project-context/` with five documents. These are short — a paragraph or two each — but they give Codex everything it needs to work on your product intelligently.
+Your team is going to create a folder called `my-project-context/` with five documents. These are short — a paragraph or two each — but they give Codex everything it needs to work on your product intelligently.
+
+**Coordinate with your team as we go.** Each file below asks a question about your product. If a teammate has already created the file, we will open it, confirm it is accurate, and you can revise or extend it. If it does not exist yet, you create it. Either way, keep track of which specific file or section YOU personally contributed to — you will need that for the individual submission at the end.
 
 Here is the first one."
 
@@ -377,9 +389,9 @@ This runs parallel agents that audit your product across multiple dimensions —
 
 **Say:**
 
-"As a team, pick one from Category A — Marketing — and one from Category B — Operations. **Tell me your two choices.**"
+"This is a team decision. Talk it through with your teammates — in person, on Slack, on Zoom, whatever works — and come back with consensus. Pick one from Category A — Marketing — and one from Category B — Operations. **Tell me your two choices.**"
 
-**STOP:** Wait for the student to pick their two automations.
+**STOP:** Wait for the student to pick their two automations. If the student says their team has not decided yet, pause and ask them to confirm with teammates before continuing — do not let them pick unilaterally.
 
 **ACTION:** Record their choices. Acknowledge each one with a brief statement about why it is a strong pick for their product. For example:
 
@@ -436,9 +448,56 @@ Here is what you did:
 - Set up a root-level AGENTS.md so Codex permanently knows your product
 - Selected two automations to build: one marketing, one operations
 
+**One more thing before Module 3.2 — your individual Canvas submission.**
+
+Move on to the next step."
+
+---
+
+### Step 7: Individual Submission — Prove You Were Here (3 minutes)
+
+**Say:**
+
+"Your team's artifact — the `my-project-context/` folder, the `AGENTS.md`, the automation selections — is the team deliverable. Your instructor will grade it once per team. But 30% of your grade for this module is individual: you need to show YOU were here and YOU contributed.
+
+Here is what to submit to Canvas before Tuesday class. This should take 3 minutes.
+
+**Screenshot 1 — Shared context folder on YOUR machine**
+Open a terminal or file browser and take a screenshot showing `my-project-context/` with all five files visible. This proves you synced your team's work to your own workspace.
+
+**Screenshot 2 — Your personal contribution**
+Open the specific file or section YOU wrote or meaningfully revised, and screenshot it. Could be `tech-stack.md` if you filled that in, or a section of `AGENTS.md` you added, or the `automation-selections.md` rationale if you pushed for a particular choice. Whatever you personally contributed, show it.
+
+**Exit ticket — answer these five questions in a short paragraph each (or one sentence if you like):**
+
+1. What is your product?
+2. Which marketing automation did your team choose?
+3. Which operations automation did your team choose?
+4. What was your specific contribution to Module 3.1?
+5. Why do both a marketing automation and an operations automation matter for a credible launch story?
+
+Upload the two screenshots and the five answers to the Week 13 Module 3.1 Submission assignment on Canvas.
+
+Done? Great. One more thing."
+
+**ACTION:** If the student asks for help phrasing their contribution or their exit-ticket answers, help — but do not write the answers for them. Ask a follow-up question instead: "What did you write that nobody else wrote?" or "If you had to defend why both categories matter to a skeptical board member, what would you say?"
+
+---
+
+### Step 8: Wrap Up and Preview (1 minute)
+
+**Say:**
+
+"That is Module 3.1 done. You have:
+
+- A team-owned `my-project-context/` folder with five real project docs
+- A root-level `AGENTS.md` that is your product's permanent brief
+- Two automation selections — one marketing, one operations
+- An individual Canvas submission ready to upload
+
 **Next up: Module 3.2 — Build Your Automations**
 
-This is where it gets hands-on. You will build both automations using the skills you learned in Modules 1 and 2 — parallel agents, file operations, custom advisors, vibe coding. Except this time, the output is for YOUR product.
+This is where it gets hands-on. Your team will build both automations using the skills you learned in Modules 1 and 2 — parallel agents, file operations, custom advisors, vibe coding. Except this time, the output is for YOUR product.
 
 You will walk away with two deployed artifacts you can demo in your final presentation and reference in your board memo.
 
@@ -496,7 +555,8 @@ Module 3.1 is successful if the student:
 - [ ] Has created `my-project-context/competitors.md` with 3-5 real competitors
 - [ ] Has created `my-project-context/launch-goals.md` with specific targets
 - [ ] Has a root-level AGENTS.md with condensed project context
-- [ ] Has selected one Category A (marketing) and one Category B (operations) automation
+- [ ] Has selected one Category A (marketing) and one Category B (operations) automation (team decision)
 - [ ] Has `my-project-context/automation-selections.md` recording their choices
 - [ ] Understands why they need both marketing and operations for a credible launch
+- [ ] Has produced an individual Canvas submission: two screenshots (shared folder + personal contribution) and a five-question exit ticket
 - [ ] Is excited to build both automations in Module 3.2
