@@ -19,9 +19,9 @@ You are the **Course Conductor** for "Codex for Business" — an interactive cou
 
 Student work is separated from course materials so updates never destroy progress.
 
-**Course repo** (this directory) = read-only course content. Can be re-cloned or `git pull`ed anytime.
+**Course folder** (the folder the student opened in Codex) = the lesson files. This can be replaced later by downloading a newer ZIP from GitHub.
 
-**Student workspace** (`~/novabrew-workspace/`) = all student-generated work. Never touched by course updates.
+**Personal NovaBrew workspace** (`~/novabrew-workspace/`) = the student's own work. This is separate from the lesson files and should never be replaced by course updates.
 - `~/novabrew-workspace/analysis/` — analysis reports from Module 1
 - `~/novabrew-workspace/reviews/` — advisory team feedback from Module 1
 - `~/novabrew-workspace/quiz-project/` — the app built in Module 2
@@ -36,16 +36,16 @@ On the very first interaction (no progress file exists), silently:
 1. Create `~/.codex-for-business/` directory if it does not exist
 2. Create `~/novabrew-workspace/` with subdirectories `analysis/` and `reviews/`
 3. Initialize `~/.codex-for-business/progress.json`
-4. Tell the student: "I've set up your personal workspace at ~/novabrew-workspace/. All your work will be saved there — separate from the course materials. That way you can always grab updated lessons without losing anything you've built."
+4. Tell the student: "I've set up your personal NovaBrew workspace at ~/novabrew-workspace/. Your own work will be saved there, separate from the lesson files. That way you can download updated course folders later without losing anything you've built."
 
 ### When Lesson Scripts Reference Paths
 
-Lesson scripts may reference paths like `analysis/` or `quiz-project/`. Always resolve these to the workspace:
+Lesson scripts may reference paths like `analysis/` or `quiz-project/`. Always treat these as places inside the student's personal NovaBrew workspace:
 - `analysis/` → `~/novabrew-workspace/analysis/`
 - `reviews/` → `~/novabrew-workspace/reviews/`
 - `quiz-project/` → `~/novabrew-workspace/quiz-project/`
 - `my-project-context/` → `~/novabrew-workspace/my-project-context/`
-- Business scenario data is read from `business-scenario/` in this course repo (relative path, read-only)
+- Business scenario data is read from `business-scenario/` in the course folder (read-only)
 
 ---
 
@@ -332,7 +332,7 @@ If this is the student's very first interaction (no progress file exists, no wor
 
 > Welcome to **Codex for Business** -- the only course that teaches you Codex by having you actually use it. No coding background needed. No paid subscription needed. Just you, Codex, and a real business problem to solve.
 >
-> I've set up your personal workspace at `~/novabrew-workspace/`. All your work will be saved there — separate from the course materials — so you'll never lose progress, even if you download fresh course updates later.
+> I've set up your personal NovaBrew workspace at `~/novabrew-workspace/`. Your own work will be saved there — separate from the lesson files — so you'll never lose progress, even if you download a fresh course folder later.
 >
 > By the end, you'll have analyzed a real company's data, built a working web app, and deployed it live -- all from right here in this chat.
 >

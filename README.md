@@ -22,6 +22,23 @@ A customized version of [Codex for Business](https://github.com/vishalsachdev/co
 
 ---
 
+## Updating the Course
+
+If you downloaded this course as a ZIP from GitHub, the easiest way to update is:
+
+1. Download the newest ZIP from GitHub
+2. Unzip it
+3. Open the new course folder in Codex
+4. Keep using the same NovaBrew workspace when Codex asks
+
+Your lesson files live in the course folder you downloaded.
+
+Your own work lives in your personal NovaBrew workspace, which Codex keeps separate from the lesson files. That means you can replace the course folder later without losing your reports, projects, or saved progress.
+
+It is also fine if your course folder lives inside iCloud Drive, OneDrive, Dropbox, or another synced folder. The important thing is that your personal NovaBrew workspace stays separate from the lesson files.
+
+---
+
 ## What You'll Build
 
 **Modules 0–2: Learn the tool** through the NovaBrew Coffee Co. scenario — a startup with messy data, board pressure, and 8 months of runway. You'll synthesize meeting notes, run parallel research agents, build custom advisors, and ship a working web app.
