@@ -55,7 +55,8 @@ You'll walk away with deployable artifacts and a "before vs. after" story for yo
 | **2.5** | Deploy & Go Live | 15 min | Ship to GitHub Pages — get a live URL for your portfolio |
 | **3.1** | Toolkit Kickoff | 20 min | Set up your project context, choose 2 automations from the menu |
 | **3.2** | Build Your Automations | 75 min | Build both automations, deploy artifacts, write reflections |
-| | **Total** | **~6 hrs** | |
+| **3.3** | The Innermost Loop (Optional) | 20 min | Use Codex to improve the course itself and experience recursive self-improvement |
+| | **Total** | **~6 hr 25 min core + 20 min optional** | |
 
 ---
 

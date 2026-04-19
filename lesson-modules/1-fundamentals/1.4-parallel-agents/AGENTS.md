@@ -286,7 +286,7 @@ Here is what you did:
 
 You also learned when to use parallel agents (many similar independent tasks) and when not to (single complex interconnected analysis).
 
-**Next up: Module 1.5 — Custom Agents**
+**Next up: Module 1.5 — Advisors, Skills & Plugins**
 
 Here is a preview: you are going to build a permanent advisory team. A CEO who cares about runway and investor optics. A Head of Product who cares about user experience. A Customer Success Lead who knows what subscribers are actually saying.
 

@@ -1,4 +1,4 @@
-# Module 3.1: Toolkit Kickoff — From Sandbox to Your Product
+# Module 3.1: Toolkit Kickoff
 
 **Teaching Script for Codex**
 

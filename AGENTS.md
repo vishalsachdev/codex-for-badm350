@@ -25,6 +25,7 @@ Student work is separated from course materials so updates never destroy progres
 - `~/novabrew-workspace/analysis/` — analysis reports from Module 1
 - `~/novabrew-workspace/reviews/` — advisory team feedback from Module 1
 - `~/novabrew-workspace/quiz-project/` — the app built in Module 2
+- `~/novabrew-workspace/my-project-context/` — product context and automation outputs from Module 3
 - `~/novabrew-workspace/AGENTS.md` — student's project memory from Module 1.6 (Codex reads this automatically)
 
 **Progress file** (`~/.codex-for-business/progress.json`) = tracks which lessons are complete. Stored in the home directory so it survives fresh clones, new machines, or repo resets.
@@ -43,6 +44,7 @@ Lesson scripts may reference paths like `analysis/` or `quiz-project/`. Always r
 - `analysis/` → `~/novabrew-workspace/analysis/`
 - `reviews/` → `~/novabrew-workspace/reviews/`
 - `quiz-project/` → `~/novabrew-workspace/quiz-project/`
+- `my-project-context/` → `~/novabrew-workspace/my-project-context/`
 - Business scenario data is read from `business-scenario/` in this course repo (relative path, read-only)
 
 ---
@@ -55,8 +57,8 @@ Before responding to anything, silently check the student's progress:
 2. If the progress file does not exist, infer progress from artifacts:
    - No files in `~/novabrew-workspace/analysis/` and no `~/novabrew-workspace/quiz-project/` → **brand new student, start Module 0**
    - Files exist in `~/novabrew-workspace/analysis/` but no `~/novabrew-workspace/quiz-project/` → **somewhere in Module 1**
-   - `~/novabrew-workspace/quiz-project/` exists → **Module 2 or beyond**
-   - A deployed URL exists in progress.json → **Module 3 or done**
+   - `~/novabrew-workspace/quiz-project/` exists but `~/novabrew-workspace/my-project-context/` does not → **Module 2 or beyond**
+   - `~/novabrew-workspace/my-project-context/` exists or a deployed URL exists in progress.json → **Module 3 or beyond**
 3. If you cannot determine progress, ask: "Hey! Looks like you're getting started. Want to begin from the top, or have you already done some lessons?"
 
 ---
@@ -67,29 +69,30 @@ Before responding to anything, silently check the student's progress:
 Module 0: Getting Started (10 min)
   0.1 Welcome & Setup
 
-Module 1: Fundamentals — "The Consulting Engagement" (2-2.5 hours)
-  1.1 Course Introduction
-  1.2 File Exploration & Workspace
-  1.3 Working with Files (analysis & synthesis)
+Module 1: Fundamentals — "The Consulting Engagement" (~3 hours)
+  1.1 Your First Business Prompt
+  1.2 File Exploration & Context
+  1.3 Working with Business Files
   1.4 Parallel Agents (process everything at once)
   1.5 Advisors, Skills & Plugins (extend what Codex can do)
   1.5b Skills — Reusable Playbooks (install superpowers, see auto-fire)
   1.6 Project Memory (AGENTS.md at workspace root)
-  1.7 What's Next
+  1.7 What's Next — From Fundamentals to Building
 
 Module 2: Vibe Coding — "Build the Solution" (1.5-2 hours)
-  2.1 Setup & Mindset
-  2.2 Plan & Requirements
+  2.1 Project Setup & Idea Selection
+  2.2 The Planning Interview
   2.3 Build & Iterate
   2.4 GitHub (back up and share your work)
   2.5 Deploy & Go Live
 
-Module 3: Capstone (30-60 min)
-  3.1 Your Own Project
-  3.2 Polish with Canva (optional bonus)
+Module 3: Pre-Launch Toolkit (1.5-2 hours core + optional bonus)
+  3.1 Toolkit Kickoff
+  3.2 Build Your Automations
+  3.3 The Innermost Loop (optional bonus)
 ```
 
-**Total time:** ~4-5 hours across all modules. Students can stop and resume anytime.
+**Total time:** ~6.5 hours for the core course, plus ~20 minutes for the optional bonus lesson. Students can stop and resume anytime.
 
 ---
 
@@ -120,9 +123,9 @@ When it is time to start a lesson:
 2. **Run the prerequisite check** (see "Prerequisite Check" below). If the previous lesson's required artifacts are missing, surface it before starting.
 3. **Show a progress line** at the start of each lesson. Before diving into the lesson content, display a brief context line so the student always knows where they are:
    ```
-   📍 Module 1, Lesson 1.3 of 7 | ~25 min | Course progress: ~30%
+   📍 Module 1, Lesson 1.3 of 8 | ~30 min | Course progress: ~14%
    ```
-   Calculate the percentage from completed_lessons in progress.json. Use these approximate lesson times: 0.1=10min, 1.1=5min, 1.2=15min, 1.3=25min, 1.4=20min, 1.5=15min, 1.5b=15min, 1.6=15min, 1.7=10min, 2.1=10min, 2.2=25min, 2.3=40min, 2.4=15min, 2.5=15min, 3.1=45min, 3.2=12min (optional).
+   Calculate the percentage using the lesson durations from `course-structure.json`, weighted by minutes rather than by lesson count. Treat optional lessons as bonus progress: they count once completed, but they should not reduce the baseline percentage for students who stop after the core path. Current core estimates are: 0.1=10min, 1.1=20min, 1.2=25min, 1.3=30min, 1.4=25min, 1.5=30min, 1.5b=15min, 1.6=20min, 1.7=10min, 2.1=20min, 2.2=25min, 2.3=30min, 2.4=15min, 2.5=15min, 3.1=20min, 3.2=75min. Optional bonus: 3.3=20min.
 4. **Carry context forward.** Briefly reference what the student discovered or built in the previous lesson so the work feels continuous, not like a memory wipe. Read the relevant artifact file(s) from `~/novabrew-workspace/analysis/` (or the appropriate workspace subdir) if you need to recall specifics. One or two sentences is enough — e.g., "Last lesson you discovered the 60-day churn cliff in the customer feedback. Now we're going to see how that connects to what the marketing team has been running."
 5. **Render the "Here's what 'done' looks like" checklist.** Parse the `## Success Criteria` section from the lesson's AGENTS.md and show it to the student as a visible checklist in plain, encouraging language. The student must never have to guess what finishing a lesson means. Example:
    ```
@@ -147,7 +150,7 @@ If a lesson's AGENTS.md file does not yet exist, tell the student: "This lesson 
 Before starting any lesson, verify that the previous lesson's key artifacts exist. This prevents students from landing in a lesson that depends on work they never did (e.g., 1.4's parallel research needs the insights from 1.3's customer feedback synthesis).
 
 How to check:
-1. Look at the previous lesson's `## Success Criteria` section for file paths (anything under `~/novabrew-workspace/`).
+1. Look at the previous lesson's `## Success Criteria` section for file paths. Resolve both absolute workspace paths like `~/novabrew-workspace/...` and lesson-relative workspace paths like `analysis/...`, `reviews/...`, `quiz-project/...`, `my-project-context/...`, and root-level `AGENTS.md`.
 2. Check whether those files exist and are non-empty.
 3. If a required artifact is missing **and the student did not explicitly ask to skip**, say something like:
    > "Quick heads up — this lesson builds on work from 1.3, and I don't see `analysis/customer-feedback-synthesis.md` in your workspace yet. Want me to take you back to 1.3 first so this lesson actually lands? Or if you'd rather push through anyway, just say 'skip the check' and we'll go."
@@ -209,6 +212,8 @@ Maintain `~/.codex-for-business/progress.json` with this structure:
 - Log key files the student creates in `artifacts_created` (e.g., `"analysis/customer-feedback-synthesis.md"`).
 - Record `deployed_url` when they deploy in Module 2.
 - `course_version` tracks which version of the course materials the student started with. Compare against `course-structure.json` to detect updates.
+- Mark Module 3 as `"complete"` when Lesson 3.2 is complete; Lesson 3.3 is optional and should not block course completion.
+- If the student completes 3.3, add it to `completed_lessons` and keep Module 3 as `"complete"`; if they skip it, do not add it to `incomplete_lessons` unless they explicitly started it and asked to move on mid-lesson.
 
 ---
 
@@ -306,7 +311,8 @@ codex-for-business-students/
   analysis/              ← Reports from Module 1 (feedback synthesis, financial analysis, etc.)
   reviews/               ← Advisory team feedback from Module 1.5
   quiz-project/          ← The app built in Module 2
-  novabrew-agents.md     ← Student's custom project memory from Module 1.6
+  my-project-context/    ← Product context and automation outputs from Module 3
+  AGENTS.md              ← Student's custom project memory from Module 1.6
 ```
 
 **Progress** (persistent, in home directory):

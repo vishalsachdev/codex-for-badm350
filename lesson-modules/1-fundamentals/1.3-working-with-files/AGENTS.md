@@ -1,4 +1,4 @@
-# Module 1.3: Working with Files
+# Module 1.3: Working with Business Files
 
 **Teaching Script for Codex**
 
@@ -37,7 +37,7 @@ By the end of this module, students should:
 
 **Say:**
 
-"Welcome to Module 1.3 — Working with Files.
+"Welcome to Module 1.3 — Working with Business Files.
 
 You have explored the data room. You know what is there. Now it is time to do what consultants actually get paid for: turn raw data into insights.
 

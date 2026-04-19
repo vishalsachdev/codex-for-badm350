@@ -302,11 +302,11 @@ Here is what you did:
 
 The big takeaway: you went from a pile of messy files to a clear, evidence-backed strategic recommendation. That is what the best consultants in the world do. You did it in about 2 hours with Codex.
 
-**Next up: Module 1.6 — Project Memory**
+**Next up: Module 1.5b — Skills — Reusable Playbooks**
 
-Here is why that matters: right now, if you closed Codex and reopened it, it would not remember any of this. Not the NovaBrew context, not the analysis, not the coffee quiz recommendation. You would have to re-explain everything.
+Here is why that matters: right now, you understand skills as an idea. In the next lesson, you are going to make them real. You will install a skill collection, watch one wake up from a plain-English prompt, and see why the description field is what makes a skill discoverable.
 
-Module 1.6 fixes that permanently. You are going to give Codex a project brief that it reads automatically — so it picks up right where you left off every single time.
+That lesson turns "skills" from a concept into a practical tool you can actually use and evaluate.
 
 When you are ready, start the next lesson."
 
@@ -368,4 +368,4 @@ Module 1.5 is successful if the student:
 - Knows when to reach for an advisor vs a skill vs a plugin
 - Could describe how to create an advisor for a different use case
 - Feels like they had a genuine strategic breakthrough, not like they were told the answer
-- Is ready to set up project memory in the next lesson
+- Is ready to make skills concrete in the next lesson

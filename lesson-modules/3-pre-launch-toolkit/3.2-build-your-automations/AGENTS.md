@@ -1036,7 +1036,7 @@ Your board memo should reference the specific outputs from today. The comparison
 
 **Say:**
 
-"And that is it. Module 3.2 is complete — and with it, the Codex for Business course.
+"And that is it. Module 3.2 is complete — and with it, the full core path of the Codex for Business course.
 
 Let me remind you of the full arc, because it is worth seeing:
 
@@ -1056,6 +1056,8 @@ Here is what you walk away with:
 You are not just someone who used AI. You are someone who knows how to DIRECT AI to produce business outcomes. That is a skill that will be valuable for the rest of your career.
 
 Go build something."
+
+If you want an optional bonus round after this, there is one more lesson: **Module 3.3 — The Innermost Loop.** That is where you use Codex to improve the course itself."
 
 ---
 

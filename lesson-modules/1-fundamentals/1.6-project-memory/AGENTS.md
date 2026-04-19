@@ -270,7 +270,7 @@ Here is what you did:
 
 This might seem like a simple concept — writing a text file — but it is one of the most impactful things you can do with Codex. The difference between a tool that forgets everything and a tool that knows your project inside and out is enormous.
 
-**Next up: Module 1.7 — What is Next**
+**Next up: Module 1.7 — What's Next — From Fundamentals to Building**
 
 Quick recap of everything you have learned in Module 1, and a preview of Module 2 where you actually BUILD the Coffee Taste Profile Quiz. We are almost there.
 

@@ -82,13 +82,13 @@ When you are ready to hear about what we are going to build together, say: **'Te
 
 You are going to learn Codex by working on a real business problem. Not a toy example. Not a homework exercise. A realistic consulting engagement with messy data, unclear priorities, and real stakes.
 
-**The course is about 4-5 hours total**, split across three modules:
+**The course is about 6.5 hours for the core path**, plus one optional bonus lesson:
 
 - **Module 1: Fundamentals** — You will explore files, analyze data, run parallel research, build a custom advisory team, and set up project memory. By the end, you will have completed a full strategic analysis that consulting firms charge $50,000 for.
 
 - **Module 2: Vibe Coding** — You will take your strategic recommendation and actually BUILD it. A real web application with a real URL that you can show to investors, professors, or put on your resume. No coding required — you describe what you want in plain English and Codex builds it.
 
-- **Module 3: Capstone** — You apply everything to YOUR OWN project. Your startup idea, your class assignment, your internship deliverable. You leave with something real.
+- **Module 3: Pre-Launch Toolkit** — You take your own semester project and automate the business around it: one marketing workflow, one operations workflow, real deliverables you can show in class.
 
 **The key principle:** You learn by doing, not by watching. Every concept gets practiced immediately on a real business problem.
 
@@ -159,11 +159,15 @@ Ready for your first task? Say: **'I am ready'**"
 - Deploy it to a live URL that anyone can visit
 - No coding required — you describe what you want, Codex builds it
 
-**Module 3 — Your Own Project:**
-- Apply everything you have learned to YOUR idea
-- Walk away with a live, shareable tool you can put on LinkedIn, show investors, or submit as a class project
+**Module 3 — Pre-Launch Toolkit:**
+- Apply everything you have learned to YOUR product
+- Build two practical automations around it: one marketing workflow and one operations workflow
+- Walk away with live or shareable business assets you can put in a presentation, portfolio, or board memo
 
-**The bottom line:** You will go from 'I do not code' to 'I shipped a live product' in about 4-5 hours. That is not a typo."
+**Optional bonus:**
+- Use Codex to improve the course itself and experience the "innermost loop" firsthand
+
+**The bottom line:** You will go from 'I do not code' to 'I analyzed a business problem, shipped a live product, and automated part of a launch' in about 6.5 hours. That is not a typo."
 
 **Say:**
 
@@ -219,7 +223,7 @@ You do not need to memorize this. Just know the dial exists. As you go through t
 - A Mac or Windows computer with the Codex desktop app installed (you already have it running, so you are good)
 - A free ChatGPT account
 - Curiosity and willingness to experiment
-- About 4-5 hours total (but go at your own pace)
+- About 6.5 hours for the core course, plus an optional bonus lesson (but go at your own pace)
 
 **What you do NOT need:**
 - Any coding experience (seriously, none)

@@ -1,4 +1,4 @@
-# Module 1.7: What's Next
+# Module 1.7: What's Next — From Fundamentals to Building
 
 **Teaching Script for Codex**
 
@@ -46,7 +46,7 @@ You walked into a messy data room with scattered files, incomplete analyses, and
 **Module 1.2 — File Exploration**
 You explored the inherited-chaos directory like a consultant on day one. You found the company brief, the key metrics, and the previous PM's half-formed 'coffee personality' idea. That idea turned out to be a crucial clue.
 
-**Module 1.3 — Working with Files**
+**Module 1.3 — Working with Business Files**
 You created two professional deliverables:
 - **Customer Feedback Synthesis** — Themes, quotes, sentiment analysis
 - **Financial Analysis** — Metrics, cohort data, the 60-90 day churn cliff
@@ -58,13 +58,13 @@ You processed 10 campaign files simultaneously and discovered that every single 
 
 'The subscription has no personality. It is transactional. Subscribers do not engage because there is nothing to engage WITH.'
 
-**Module 1.5 — Custom Agents**
+**Module 1.5 — Advisors, Skills & Plugins**
 You assembled an advisory team — CEO, Head of Product, and Customer Success Lead. Their reviews from three different perspectives converged on the same solution. The CS Lead delivered the key quote: 'Customers keep asking us to help them find THEIR perfect coffee.'
 
 That is when everything clicked: **The Coffee Taste Profile Quiz.**
 
 **Module 1.5b — Skills as Reusable Playbooks**
-You installed the superpowers skill collection — an industry-standard set of playbooks any AI agent can load. You watched a skill auto-activate from a natural-language prompt, saw what happens when prompts are too vague, and learned that the description field is what makes a skill discoverable. That insight will matter when you author your own skill in Module 3.2.
+You installed the superpowers skill collection — an industry-standard set of playbooks any AI agent can load. You watched a skill auto-activate from a natural-language prompt, saw what happens when prompts are too vague, and learned that the description field is what makes a skill discoverable. That insight will matter later when you customize playbooks and automation instructions for your own project in Module 3.
 
 **Module 1.6 — Project Memory**
 You created an AGENTS.md that captures everything — the company context, the discoveries, the recommendation, the goals. Codex now remembers NovaBrew permanently. No more starting from zero.

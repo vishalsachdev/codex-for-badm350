@@ -1,4 +1,4 @@
-# Module 1.2: File Exploration & Workspace
+# Module 1.2: File Exploration & Context
 
 **Teaching Script for Codex**
 
@@ -263,7 +263,7 @@ Here is what you just did:
 
 You are oriented. You know what data is available, you know the stakes, and you have found your first clue (that coffee personality idea).
 
-**Next up: Module 1.3 — Working with Files**
+**Next up: Module 1.3 — Working with Business Files**
 
 This is where we go from exploring to analyzing. You are going to process customer feedback, crunch financial data, and start building real deliverables. The kind of work that takes a junior analyst a full day — you will do it in 20 minutes.
 

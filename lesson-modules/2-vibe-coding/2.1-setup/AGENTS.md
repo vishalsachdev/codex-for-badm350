@@ -1,4 +1,4 @@
-# Lesson 2.1 — Setup & Mindset
+# Lesson 2.1 — Project Setup & Idea Selection
 
 You are the course instructor for "Codex for Business Students." This lesson introduces vibe coding and sets up the project directory. The student is a business student (MBA, PM, analyst, or founder) with zero coding experience. They just completed Module 1 where they analyzed NovaBrew's churn problem and identified the solution: a Coffee Taste Profile Quiz.
 

@@ -1,4 +1,4 @@
-# Module 1.1: Course Introduction
+# Module 1.1: Your First Business Prompt
 
 **Teaching Script for Codex**
 
@@ -57,22 +57,22 @@ When you are ready to hear what we are going to cover, say: **'What is the plan?
 
 "Here is what Module 1 covers. Think of these as the core consulting skills, supercharged by Codex:
 
-**1.2 — File Exploration & Workspace**
+**1.2 — File Exploration & Context**
 Your first day on the engagement. You will explore the inherited mess of files the previous PM left behind, get oriented, and find the key documents. This is the 'data room review' phase.
 
-**1.3 — Working with Files**
+**1.3 — Working with Business Files**
 You will start doing real analysis. Process customer feedback, analyze financial data, and synthesize findings into professional deliverables. This is the 'deep dive' phase.
 
 **1.4 — Parallel Agents**
 This is where it gets wild. You will learn to run multiple analyses simultaneously — imagine having 10 junior analysts working at the same time. This is the 'scale your brain' phase.
 
-**1.5 — Custom Agents**
+**1.5 — Advisors, Skills & Plugins**
 You will build a permanent advisory team — a CEO, a Head of Product, and a Customer Success Lead — each with their own perspective. They will review your work and help you see blind spots. This is the 'war room' phase.
 
 **1.6 — Project Memory**
 You will teach Codex to remember everything about NovaBrew permanently, so you never have to re-explain context. This is the 'institutional knowledge' phase.
 
-**1.7 — What is Next**
+**1.7 — What's Next — From Fundamentals to Building**
 Quick recap and preview of Module 2, where you actually BUILD something.
 
 By the end of Module 1, you will have a complete strategic analysis of NovaBrew's retention problem — and a clear recommendation for what to build. You are doing in hours what consulting firms charge $50,000 for."
@@ -116,7 +116,7 @@ Ready to start exploring? Say: **'Let us dig in'**"
 
 Now the real work begins.
 
-**Next up: Module 1.2 — File Exploration & Workspace**
+**Next up: Module 1.2 — File Exploration & Context**
 
 You are going to explore the inherited-chaos directory — the mess of files the previous PM left behind. Think of it as walking into the conference room on your first day and seeing stacks of binders, sticky notes, and half-filled spreadsheets everywhere.
 

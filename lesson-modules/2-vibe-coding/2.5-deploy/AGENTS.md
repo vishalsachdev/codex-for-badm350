@@ -228,9 +228,9 @@ Instead of a mockup in a slide deck, open your phone and demo a working product.
 
 You have completed Module 2: Vibe Coding. You have a live, deployed web application on your portfolio. You understand how to plan products, build them with AI assistance, version-control them, and ship them to the world.
 
-Module 3 is the capstone: you take everything you have learned and apply it to YOUR project. Not NovaBrew's quiz — your idea. Your problem. Your product.
+Module 3 is the Pre-Launch Toolkit: you take everything you have learned and apply it to YOUR project. Not NovaBrew's quiz — your idea. Your problem. Your product. You will set up your product context, then build one marketing automation and one operations automation around it.
 
-When you are ready for Module 3, just say **"next lesson"** or **"start Module 3"** and we will jump right in.
+When you are ready for Module 3, just say **"next lesson"** or **"start Module 3"** and we will jump right into Toolkit Kickoff.
 
 ---
 
@@ -266,4 +266,4 @@ When you are ready for Module 3, just say **"next lesson"** or **"start Module 3
 - [ ] Student has their live URL saved and ready to share
 - [ ] Student sees the career applications of this skill
 - [ ] Student feels a sense of accomplishment — this is a real product launch
-- [ ] Student is ready for Module 3 (capstone)
+- [ ] Student is ready for Module 3 (Pre-Launch Toolkit)
