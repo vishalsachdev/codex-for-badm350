@@ -5,6 +5,8 @@
 **Author**: Vishal Sachdev
 **Based on**: Codex for Business Students (codex-for-business-students repo)
 
+> Archive note: This is an older concept spec for a separate marketing-team workshop. It does not reflect the current student-facing BADM 350 course structure or naming.
+
 ---
 
 ## 1. Course Identity
@@ -168,7 +170,7 @@ Staff choose a track based on their role (guided by `reference/track-guide.md`).
 
 Workflow pulls from Box knowledge-base/ as input — real materials, real output.
 
-### Module 3: Capstone — "Show Brad" (30-45 min)
+### Module 3: Final Showcase — "Show Brad" (30-45 min)
 
 **3.1 Your Deliverable**
 - Build something for your actual role using what you learned
@@ -481,7 +483,7 @@ Pre-training provisioning (done by Vishal):
 | Build module | Single track (build an app) | Split: Build a Tool vs. Build a Workflow |
 | Deploy target | GitHub Pages | Netlify Drop (Track A only) |
 | Version control | Git taught as a module | Not required |
-| Capstone | Portfolio piece + case study | Team deliverable for Brad |
+| Final showcase | Portfolio piece + case study | Team deliverable for Brad |
 | AHA moment | Individual insight (Coffee Quiz) | Team synthesis (unified go-to-market) |
 | Course Conductor tone | "Smart friend, never condescending" | Same, but uses marketing language natively |
 
