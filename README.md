@@ -106,9 +106,19 @@ codex-for-badm350/
 ├── business-scenario/           # NovaBrew company files (the "inherited chaos")
 ├── templates/                   # Reusable business templates
 ├── docs/                        # Course website (GitHub Pages)
+├── case-studies/                # Curated standout case studies from past cohorts
 ├── course-structure.json        # Machine-readable course outline
 └── SPEC.md                      # Course design specification
 ```
+
+---
+
+## Case Studies
+
+Student case studies live in two places:
+
+- **Class collection** — [`badm350-spring-2026-case-studies`](https://github.com/vishalsachdev/badm350-spring-2026-case-studies) is the standalone repo where every team submits their Module 3 case study as a pull request. Template and submission instructions are in that repo's README.
+- **Curated teaching set** — [`case-studies/`](./case-studies/) in this repo mirrors 3–5 standout case studies per cohort (with explicit student opt-in) so future students working through Module 3 can see real peer examples of what good looks like.
 
 ---
 
