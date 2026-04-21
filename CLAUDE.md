@@ -84,10 +84,9 @@ Monitor student feedback from the lesson-transition fix (issues #1-3 closed 2026
 
 ## Session Log
 
-### 2026-04-14
-- Shipped conductor-level fix for three student feedback issues (#1, #2, #3 — all from Module 1 students, all pointing at opaque lesson transitions). Single edit to root `AGENTS.md` propagates to all 14 lessons without touching any lesson file. Adds: (1) visible "Here's what done looks like" checklist rendered from each lesson's Success Criteria at lesson start, (2) completion gate on "next" that shows which boxes are unchecked with explicit override escape hatch, (3) prerequisite check before starting a lesson that verifies prior artifacts exist, (4) context carry-forward so transitions reference prior discoveries instead of feeling like a memory wipe. `progress.json` gained `incomplete_lessons[]` to track overrides.
-- Closed issues #1, #2, #3 with fix references. Scheduled Canvas announcement (course 68238, announcement ID 1114613) to post ~1 hour delayed, routing the "re-download ZIP" instructions through the BADM 350 course shell. Email draft also saved at `/Users/vishal/teaching/badm350/communications/emails/2026-04-14-codex-course-update.md`. Reassured students the workspace-vs-course-folder separation means ZIP replacement is safe.
-- Landing page coherence pass: added prominent GitHub link to main nav (icon + label), replaced hero secondary CTA "See the Modules" with "Download from GitHub," fixed stale lesson count (15 → 16 for Module 1.5b), and softened "first AI-powered prototype" framing since the site only serves enrolled BADM 350 students who already have a working product. Deferred: "Real tools. Not toy projects." title over NovaBrew (minor credibility crack but not urgent).
-- Next: watch for new feedback after students re-download; TA test Module 1.5b in a fresh Codex environment; wire author-your-own-skill callback into Module 3.2.
+### 2026-04-21
+- Untangled the case-studies story. Confirmed the design is intentionally two-tier: (1) standalone repo `vishalsachdev/badm350-spring-2026-case-studies` receives PRs from every team (first student PR from charlieritter landed today, placeholder-only), and (2) `codex-for-badm350/case-studies/spring-2026/` holds a curated opt-in mirror of 3–5 standouts per cohort for future Module 3 students to learn from. Nearly deleted the folder before catching the design intent. Cloned the standalone repo to `~/teaching/badm350-spring-2026-case-studies/` so it lives as a sibling of the course repo.
+- Documented the two-repo flow in the course README (new "Case Studies" section, Project Structure updated) and on the landing page (new FAQ entry "Where do case studies live?" with links to both repos).
+- Next: review charlieritter PR #1 once real content lands; decide on lessons to cut/adapt for the 3–4 week BADM 350 window; end-to-end TA test of selected lesson path.
 
 *Older entries archived to `docs/session-archive.md`.*
